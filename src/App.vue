@@ -9,13 +9,28 @@
   </div>
 </template>
 
-/* cyrillic */
-@font-face { font-family: 'Oswald'; font-style: normal;
-font-weight: 300; src: local('Oswald Light'), local('Oswald-Light'),
-url(https://fonts.gstatic.com/s/oswald/v17/TK3hWkUHHAIjg75-sh0Tvs9CE5Q.woff2)
-format('woff2'); unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116; }
-
 <style lang="scss">
+/* latin-ext */
+@font-face {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Work Sans Light"), local("WorkSans-Light"),
+    url(https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh314L8lthN2fk.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+.work-sans {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Work Sans Light"), local("WorkSans-Light"),
+    url(https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh314L8lthN2fk.woff2)
+      format("woff2");
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+    U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
