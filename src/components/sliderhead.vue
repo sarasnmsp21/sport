@@ -10,7 +10,7 @@
         <img
           src="../assets/images/banner3.jpg"
           alt="Los Angeles"
-          width="1300"
+          width="100%"
           height="500"
         />
         <div class="carousel-caption text-right">
