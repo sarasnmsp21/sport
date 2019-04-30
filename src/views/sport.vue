@@ -9,6 +9,12 @@
     <news></news>
     <gallery></gallery>
     <awards></awards>
+    <ourteam></ourteam>
+    <funshop></funshop>
+    <swiper></swiper>
+    <lastvideo></lastvideo>
+    <contact></contact>
+    <bottom></bottom>
   </div>
 </template>
 
@@ -23,6 +29,12 @@ import match from "@/components/match.vue";
 import news from "@/components/news.vue";
 import gallery from "@/components/gallery.vue";
 import awards from "@/components/awards.vue";
+import ourteam from "@/components/ourteam.vue";
+import swiper from "@/components/swiper.vue";
+import funshop from "@/components/funshop.vue";
+import lastvideo from "@/components/lastvideo.vue";
+import contact from "@/components/contact.vue";
+import bottom from "@/components/footer.vue";
 
 
 
@@ -36,7 +48,13 @@ export default {
     match,
     news,
     gallery,
-    awards
+    awards,
+    ourteam,
+    swiper,
+    funshop,
+    lastvideo,
+    contact,
+    bottom
   }
 };
 </script>
