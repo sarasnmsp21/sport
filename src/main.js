@@ -37,7 +37,8 @@ import {
   faTelegramPlane,
   faFacebookF,
   faPinterestP,
-  faApple
+  faApple,
+  faFlickr
 } from "@fortawesome/free-brands-svg-icons"; //fab
 
 import { faCommentAlt, faClock } from "@fortawesome/free-regular-svg-icons"; //far
@@ -74,7 +75,8 @@ library.add(
   faTelegramPlane,
   faFacebookF,
   faPinterestP,
-  faApple
+  faApple,
+  faFlickr
 ); //fab
 
 Vue.component("font-awesome-icon", FontAwesomeIcon);

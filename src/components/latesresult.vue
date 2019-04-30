@@ -1,6 +1,7 @@
 <template>
+<div class="col-md-10 mx-auto">
   <form>
-    <fieldset class="text-center col-md-10 mx-auto">
+    <fieldset class="text-center col-md-10 mx-auto mt-5 mb-5">
       <legend><div class="m-3">LATEST RESULTS</div></legend>
       <div class="m-2">Cambridgeshire UK</div>
       <div class="m-2">November 13, 2015 | 9:00 pm</div>
@@ -17,6 +18,8 @@
       <div>MORE INFO</div>
     </fieldset>
   </form>
+  </div>
+  
   <!-- <div>
     <form>
       <fieldset>

@@ -10,13 +10,13 @@
         ><font-awesome-icon :icon="['fab', 'pinterest-p']"
       /></span>
       <span class="m-3 "
-        ><font-awesome-icon :icon="['fab', 'pinterest-p']"
+        ><font-awesome-icon :icon="['fab', 'youtube']"
       /></span>
       <span class="m-3 "
-        ><font-awesome-icon :icon="['fab', 'pinterest-p']"
+        ><font-awesome-icon :icon="['fab', 'instagram']"
       /></span>
       <span class="m-3 "
-        ><font-awesome-icon :icon="['fab', 'pinterest-p']"
+        ><font-awesome-icon :icon="['fab', 'flickr']"
       /></span>
     </div>
     <b-navbar toggleable="lg" type="dark" variant="dark">
