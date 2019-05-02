@@ -31,6 +31,16 @@
           </div>
         </div>
       </div>
+      <div class="d-flex justify-content-between">
+        <div >
+          <span class="mr-5">About</span>
+          <span class="mr-5">Players</span>
+          <span class="mr-5">Match</span>
+          <span class="mr-5">Results</span>
+          <span class="mr-5">News</span>
+        </div>
+        <div>Copyright 2015 Spartak Team. All Rights Reserved.</div>
+      </div>
     </div>
   </div>
 </template>

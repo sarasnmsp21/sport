@@ -14,9 +14,18 @@
           height="500"
         />
         <div class="carousel-caption text-right">
-         <div>LIFE IS ABOUT TIMING</div>
-         <div>Just play. Have fun. Enjoy the game</div>
-         <div>READ MORE <span> > </span></div>
+          <div class="banner-fontsize">
+            <span class="color-white banner-text-bg">LIFE IS</span>
+            <span class="color-orange banner-text-bg"> ABOUT TIMING</span>
+          </div>
+          <div class="banner-font2 mb-4 mt-2">
+            <span>Just play.</span><span class="color-orange"> Have fun.</span
+            ><span> Enjoy the game</span>
+          </div>
+          <div class="mb-5 text-outline">
+            <span class="fontstyle-bg">READ MORE</span>
+            <span class="arrow-bg"> > </span>
+          </div>
         </div>
       </div>
       <div class="carousel-item">
@@ -60,4 +69,51 @@ export default {
   }
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+@import "../assets/scss/variables.scss";
+.color-white {
+  color: $color-white;
+}
+.color-orange {
+  color: $color-lightyellow;
+}
+.banner-fontsize {
+  font-size: 40px;
+  font-weight: 600;
+}
+.banner-text-bg {
+  background-color: #0000008f;
+  padding: 7px;
+}
+.banner-font2 {
+  font-size: 20px;
+}
+.fontstyle-bg {
+  font-size: 15px;
+  background-color: $color-lightyellow;
+  padding: 5px;
+  color: $color-dark-gray;
+}
+.arrow-bg {
+  font-size: 15px;
+  background-color: $color-dark-gray;
+  padding: 5px;
+  color: $color-lightyellow;
+}
+.text-outline {
+  outline: 2px solid #ffc722;
+  margin-left: 772px;
+  padding: 3px 2px;
+}
+.carousel-indicators li {
+  margin-right: 6px;
+  margin-left: 6px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background-color: $color-white;
+}
+.carousel-indicators .active {
+  background-color: $color-lightyellow;
+}
+</style>
