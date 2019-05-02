@@ -14,18 +14,18 @@
           height="500"
         />
         <div class="carousel-caption text-right">
-          <div class="banner-fontsize">
-            <span class="color-white banner-text-bg">LIFE IS</span>
-            <span class="color-orange banner-text-bg"> ABOUT TIMING</span>
-          </div>
+          <span class="banner-fontsize banner-text-bg">
+            <span class="color-white ">LIFE IS</span>
+            <span class="color-orange "> ABOUT TIMING</span>
+          </span>
           <div class="banner-font2 mb-4 mt-2">
             <span>Just play.</span><span class="color-orange"> Have fun.</span
             ><span> Enjoy the game</span>
           </div>
-          <div class="mb-5 text-outline">
+          <span class="mb-5 text-outline">
             <span class="fontstyle-bg">READ MORE</span>
             <span class="arrow-bg"> > </span>
-          </div>
+          </span>
         </div>
       </div>
       <div class="carousel-item">
@@ -77,13 +77,11 @@ export default {
 .color-orange {
   color: $color-lightyellow;
 }
-.banner-fontsize {
-  font-size: 40px;
-  font-weight: 600;
-}
 .banner-text-bg {
-  background-color: #0000008f;
-  padding: 7px;
+    font-size: 55px;
+    background: rgba(0, 0, 0, 0.5);
+    // font-family: 'Oswald';
+    font-weight:400;
 }
 .banner-font2 {
   font-size: 20px;
@@ -101,9 +99,9 @@ export default {
   color: $color-lightyellow;
 }
 .text-outline {
-  outline: 2px solid #ffc722;
-  margin-left: 772px;
-  padding: 3px 2px;
+    
+    padding: 7px 3px;
+    border: 1px solid #ffc722;
 }
 .carousel-indicators li {
   margin-right: 6px;

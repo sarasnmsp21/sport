@@ -25,6 +25,7 @@
       <b-navbar toggleable="lg" class="menu-position col-md-12 menu-bg">
         <div class="col-md-10 d-flex mx-auto">
           <b-navbar-brand href="#" class="brandname-font">
+            <img src="../assets/images/football2.png" alt="" width="40" height="40">
             <span class="brandname-color1">SPORT</span>
             <span class="brandname-color">.AK</span>
           </b-navbar-brand>
@@ -33,7 +34,7 @@
 
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto menu-font ">
-              <b-nav-item href="#">HOME</b-nav-item>
+              <b-nav-item href="#" >HOME</b-nav-item>
               <b-nav-item href="#">ABOUT</b-nav-item>
               <b-nav-item href="#">PAGES</b-nav-item>
               <b-nav-item href="#">MATCH</b-nav-item>
@@ -66,9 +67,11 @@
 }
 .menu-bg {
   background-color: $menu-bg;
+  padding:0px;
 }
 .menu-font {
   font-size: 14px;
+  
 }
 .brandname-font {
   font-size: 30px;
@@ -81,10 +84,39 @@
 }
 .navbar-light .navbar-nav .nav-link {
   color: $color-white;
-  padding-right: 30px;
+  padding:20px;
+  border-bottom: 3px solid transparent;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: $color-lightyellow;
   border-bottom: 3px solid $color-lightyellow;
+}
+
+.navbar-brand::after{
+      content: '';
+    transform: skewX(-33deg);
+    -webkit-transform: skewX(-33deg);
+    background: #ffc722;
+    position: absolute;
+    right: 900px;
+    top: 0;
+    bottom: 0;
+    left: -1000%;
+    z-index: -1;
+}
+.navbar-brand::before
+{
+      content: '';
+    transform: skewX(-33deg);
+    -webkit-transform: skewX(-33deg);
+    background: #fdbd00;
+    position: absolute;
+    right: 893px;
+    top: -30px;
+    bottom: -11px;
+    left: -1000%;
+    z-index: -2;
+    transition: 400ms all;
+    -webkit-transition: 400ms all;
 }
 </style>
