@@ -78,10 +78,10 @@ export default {
   color: $color-lightyellow;
 }
 .banner-text-bg {
-    font-size: 55px;
-    background: rgba(0, 0, 0, 0.5);
-    // font-family: 'Oswald';
-    font-weight:400;
+  font-size: 55px;
+  background: rgba(0, 0, 0, 0.5);
+  // font-family: 'Oswald';
+  font-weight: 400;
 }
 .banner-font2 {
   font-size: 20px;
@@ -92,6 +92,7 @@ export default {
   padding: 5px;
   color: $color-dark-gray;
 }
+
 .arrow-bg {
   font-size: 15px;
   background-color: $color-dark-gray;
@@ -99,9 +100,8 @@ export default {
   color: $color-lightyellow;
 }
 .text-outline {
-    
-    padding: 7px 3px;
-    border: 1px solid #ffc722;
+  padding: 7px 3px;
+  border: 1px solid #ffc722;
 }
 .carousel-indicators li {
   margin-right: 6px;

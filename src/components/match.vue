@@ -1,29 +1,39 @@
 <template>
   <div class="match-bg">
-    <div class="col-md-10 d-flex mx-auto pt-5 pb-5">
+    <div class="col-md-9 d-flex mx-auto pt-5 pb-5 p-0">
       <div class="col-md-6 bg-light p-0">
-        <div>NEXT MATCH</div>
-        <div id="match" class="bg-secondary mt-5 mb-4 p-2"></div>
-        <div>
-          <span class="m-4">ENGLAND</span>
-          <span>VS</span>
-          <span class="m-4  ">AMSTERDAM</span>
+        <div class="d-flex">
+          <div class="mt-5 ml-5 match-fontsize">
+            <span class="color-lightblack">NEXT</span>
+            <span class="color-orange"> MATCH</span>
+          </div>
+         <div></div>
         </div>
-        <div class="m-2">October 28, 2016 | 8:08 am</div>
-        <div class="m-2">Cambridgeshire UK</div>
+        <div id="match" class="bg-lightgray mt-5 mb-4 p-2"></div>
+        <div>
+          <span class="m-3 color-lightblack">ENGLAND</span>
+          <span class="bg-orange p-1">VS</span>
+          <span class="m-3 color-lightblack ">AMSTERDAM</span>
+        </div>
+        <div class="mt-2 color-lightgray date-fontsize">
+          October 28, 2016 | 8:08 am
+        </div>
+        <div class="color-lightgray tournament-fontsize ">
+          Cambridgeshire UK
+        </div>
       </div>
-      <div class="col-md-6 bg-secondary p-0">
+      <div class="col-md-6 bg-lightblack  p-0">
         <div
-          class="d-flex date-border-bottom"
+          class="d-flex date-border-bottom text-white"
           v-for="match in matchs"
           v-bind:key="match.index"
         >
           <div class="date-border-right">
             <div class="p-2">{{ match.date }}</div>
           </div>
-          <div class="p-2">
-            <span>{{ match.country1 }}</span>
-            <span>VS</span>
+          <div class="p-2 tournament-font mx-auto">
+            <span class="mr-3">{{ match.country1 }}</span>
+            <span class="mr-3 color-orange vs-fontsize">VS</span>
             <span>{{ match.country2 }}</span>
           </div>
         </div>
@@ -94,7 +104,7 @@ var x = setInterval(function() {
 
   // Output the result in an element with id="demo"
   document.getElementById("match").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    days + "DAYS : " + hours + "HRS : " + minutes + "MIN :" + seconds + "SEC ";
 
   // If the count down is over, write some text
   if (distance < 0) {
@@ -111,8 +121,32 @@ var x = setInterval(function() {
 }
 .date-border-right {
   border-right: 1px solid;
+  font-size: 10px;
+  padding: 4px 15px;
 }
 .date-border-bottom {
   border-bottom: 1px solid;
+}
+.bg-lightgray {
+  background: $bg-lightgray;
+}
+.bg-lightblack {
+  background-color: $color-mid-gray;
+}
+.date-fontsize {
+  font-size: 14px;
+}
+.tournament-fontsize {
+  font-size: 12px;
+}
+.tournament-font {
+  font-size: 14px;
+  font-weight: 600;
+}
+.vs-fontsize {
+  font-size: 10px;
+}
+.match-fontsize {
+  font-size: 25px;
 }
 </style>

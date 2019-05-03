@@ -1,25 +1,43 @@
 <template>
-  <div class="col-md-10 mx-auto">
-    <form>
-      <div class="text-center col-md-10 mx-auto mt-5 mb-5 fieldset">
-        <div class="">
-        <span class="m-3 text-result">LATEST RESULTS</span>
-        <div class="m-2">Cambridgeshire UK</div>
-        <div class="m-2">November 13, 2015 | 9:00 pm</div>
-        </div>
-        <div>
-          <span class="m-4">ENGLAND</span>
-          <span class="m-4  ">AMSTERDAM</span>
-        </div>
-        <div>
-          It is a long established fact that a reader will be distracted by the
-          readable content of a page when looking at its layout. as opposed to
-          using 'Content here, content here', making it look like readable
-          English.
-        </div>
-        <div>MORE INFO</div>
+  <div class="mb-5">
+    <div class="text-center col-md-9 mx-auto mt-5 mb-2 fieldset">
+      <span class="m-3 text-result bg-white p-5 head-font-size">
+        <span class="color-midgray">LATEST</span>
+        <span class="color-yellow "> RESULTS</span>
+      </span>
+      <div class="mt-4 place-font">Cambridgeshire UK</div>
+      <div class="m-3 color-lightgray date-fontsize">
+        November 13, 2015 | 9:00 pm
       </div>
-    </form>
+    </div>
+
+    <div class="d-flex justify-content-between mb-5 score-bg">
+      <div></div>
+      <div class="d-flex p-3">
+        <span class="m-4">ENGLAND</span>
+        <span>
+          <div class="mb-3 score-font font-weight-bold">SCORE</div>
+          <div>
+            <span class="p-3 bg-orange color-midgray">4</span>
+            <span class="vs-position color-midgray "> vs</span>
+            <span class="p-3 bg-lightblack color-yellow"> 2</span>
+          </div>
+        </span>
+        <span class="m-4  ">AMSTERDAM</span>
+      </div>
+      <div></div>
+    </div>
+    <div class="col-md-9 mx-auto fieldset2 color-lightgray date-fontsize mb-5">
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. as opposed to using
+      'Content here, content here', making it look like readable English.
+    </div>
+    <span class="bg-white pl-5 pr-5 text-more">
+      <span class="btn-border">
+      <span class="bg-orange btn-padding">MORE INFO</span>
+      </span>
+    </span>
+   </div>
   </div>
 
   <!-- <div>
@@ -34,28 +52,102 @@
   </div> -->
 </template>
 <style lang="scss">
-.fieldset::before{
-         content: '';
-    border: solid #ffc722;
-    border-width: 1px 1px 0 1px;
-    position: absolute;
-    z-index: -1;
-    left: 0;
-    right: 0;
-    top: 16px;
-    bottom: 0;
+@import "../assets/scss/variables.scss";
+.color-lightgray {
+  color: $color-light-gray;
 }
-.fieldset.text-result{
-      padding: 0 65px;
-    background: #fff;
-    font-size: 38px;
-    text-transform: uppercase;
-    display: inline-block;
-    position: relative;
+.color-darkgray {
+  color: $color-dark-gray;
 }
-.fieldset{
-      text-align: center;
-    position: relative;
-    z-index: 1;
+.color-yellow {
+  color: $color-lightyellow;
+}
+.color-midgray {
+  color: $color-mid-gray;
+}
+.bg-lightblack {
+  background-color: $bg-lightblack;
+}
+.bg-orange {
+  background-color: $color-yellow;
+}
+.bg-white {
+  background-color: $color-white;
+}
+.fieldset::before {
+  content: "";
+  border: solid $color-yellow;
+  border-width: 1px 1px 0 1px;
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  top: 20px;
+  bottom: 0;
+}
+.fieldset2::after {
+  content: "";
+  border: solid #fdbd00;
+  border-width: 0px 1px 1px 1px;
+  position: absolute;
+  z-index: -1;
+  left: 0px;
+  right: 0;
+  top: -30px;
+  bottom: -60px;
+}
+.fieldset2 {
+  text-align: center;
+  position: relative;
+  z-index: -1;
+}
+
+.fieldset.text-result {
+  padding: 0 65px;
+  background: $color-white;
+  font-size: 38px;
+  text-transform: uppercase;
+  display: inline-block;
+  position: relative;
+}
+.fieldset {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.head-font-size {
+  font-size: 28px;
+}
+.place-font {
+  font-size: 18px;
+  color: $color-mid-gray;
+}
+.date-fontsize {
+  font-size: 12px;
+}
+.vs-position {
+  border-radius: 50%;
+  background-color: $color-yellow;
+  position: absolute;
+  z-index: 1;
+  text-align: center;
+  left: 48%;
+  padding: 0px 3px 0px 3px;
+}
+.score-font {
+  font-size: 10px;
+  color: $color-light-gray;
+}
+.score-bg {
+  background-color: $bg-lightgray;
+}
+.btn-padding{
+  padding: 9px 40px;
+    font-size: 10px;
+    font-weight: bold;
+}
+.btn-border{
+      border: 1px solid #fdbd00;
+    padding: 6px 2px 10px 2px;
 }
 </style>
