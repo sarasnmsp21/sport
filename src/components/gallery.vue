@@ -1,11 +1,13 @@
 <template>
   <div>
-    <div>GALLERY</div>
-    <div>
-      The point of using Lorem Ipsum is that it has a more-or-less normal
-      distribution of letters, as opposed to using 'Content here, content here',
-      making it readable English. distribution of letters, as opposed to using
-      'Content here, content here', making it look like.
+    <div class="d-flex">
+      <div>GALLERY</div>
+      <div>
+        The point of using Lorem Ipsum is that it has a more-or-less normal
+        distribution of letters, as opposed to using 'Content here, content
+        here', making it readable English. distribution of letters, as opposed
+        to using 'Content here, content here', making it look like.
+      </div>
     </div>
     <div>
       <b-tabs content-class="mt-3">

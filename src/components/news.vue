@@ -14,33 +14,36 @@
         <div>
           <img src="../assets/images/player.jpeg" width="100%" height="100%" />
         </div>
-        <div class="bg-lightgray">
-          <div>Nov 19, 2015</div>
-          <div>PELLENTESQUE LAOREET UENA TURPIS</div>
+        <div class="bg-lightgray p-3">
+          <div class="news-date-font color-lightgray">Nov 19, 2015</div>
+          <div class="news-head-font font-weight-bold mb-3">
+            PELLENTESQUE LAOREET UENA TURPIS
+          </div>
           <div class="color-lightgray">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. as
             opposed to using
-            <div>READ MORE ></div>
           </div>
+          <div>READ MORE ></div>
         </div>
         <div>
           <img src="../assets/images/player.jpeg" width="100%" height="100%" />
         </div>
-        <div class="bg-lightgray">
-          <div>Nov 19, 2015</div>
-          <div>PELLENTESQUE LAOREET UENA TURPIS</div>
+        <div class="bg-lightgray p-3">
+          <div class="news-date-font color-lightgray">Nov 19, 2015</div>
+          <div class="news-head-font font-weight-bold mb-3 ">
+            PELLENTESQUE LAOREET UENA TURPIS
+          </div>
           <div class="color-lightgray">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. as
             opposed to using
-            <div>READ MORE ></div>
           </div>
+          <div>READ MORE ></div>
         </div>
       </div>
-      <div class="mt-4 mb-4">ALL NEWS</div>
     </div>
-    <div class="">hello</div>
+    <div class="bg-image"></div>
   </div>
 </template>
 <style lang="scss">
@@ -50,5 +53,13 @@
 }
 .bg-image {
   background: url("../assets/images/banner3.jpg");
+}
+.news-date-font {
+  font-size: 10px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+.news-head-font {
+  font-size: 10px;
 }
 </style>
