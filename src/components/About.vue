@@ -1,15 +1,16 @@
 <template>
   <div class=" about-bg">
     <div class="d-flex justify-content-between col-md-9 mx-auto p-0">
-      <div class="text-left relative  col1-bg col">
-        <div class="work-sans mb-3 heading-fontsize">
-          <span class="color-lightblack">ABOUT</span>
+      <div class="text-left relative  col1-bg col-md-6">
+        <div class="work-sans mb-3 about-fontsize">
+          <span class="color-midgray">ABOUT</span>
           <span class="color-white"> TEAM</span>
         </div>
-        <div>
+        <div class="font-oswald para-lineheight color-midgray">
           <p>
             It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+            the readable content of a page when looking at its layout. making it
+            look like readable English.Ipsum is that it 
           </p>
           <p>
             The point of using Lorem Ipsum is that it has a more-or-less normal
@@ -23,18 +24,19 @@
           </span>
         </div>
       </div>
-      <div class="text-right d-flex justify-content-center col2-bg col p-0 ">
-        <div class="">
-          <span>BERNARD</span><br />
-          <span>FERNANDEZ</span>
+      <div class="text-right col2-bg col-md-6 ">
+        <div class="float-text">
+          <span class="text-white font-oswald600 pr-3">BERNARD</span><br />
+          <span class="color-yellow font-oswald600 pr-3">FERNANDEZ</span>
         </div>
-        <div class="">
-          <div>TRAINERS</div>
+        <div class="text-white font-oswald600">
+          <div class="pb-4">TRAINERS</div>
           <div>
             <img
               src="../assets/images/sportman.jpg"
-              width="35%"
-              height="150px"
+              width="48%"
+              height="200px"
+              style=" outline: 1px solid orange;"
             />
           </div>
         </div>
@@ -55,7 +57,7 @@
   content: "";
   transform: skewX(-33deg);
   -webkit-transform: skewX(-33deg);
-  background: #fdbd00d1;
+  background: #fdbd00ba;
   position: absolute;
   right: -30px;
   top: 0px;
@@ -79,7 +81,7 @@
   border: 1px solid $bg-lightblack;
   padding: 6px 2px 10px 2px;
 }
-.heading-fontsize {
+.about-fontsize {
   font-size: 30px;
 }
 // .col2-bg::after {
@@ -98,5 +100,17 @@
 .col2-bg {
   z-index: 1;
   padding: 65px 0px 77px 0px;
+}
+.para-lineheight {
+  line-height: 20px;
+}
+.margin-top {
+  margin-top: 105px;
+}
+.float-text {
+  float: left;
+  margin-left: 121px;
+  vertical-align: bottom;
+  margin-top: 203px;
 }
 </style>

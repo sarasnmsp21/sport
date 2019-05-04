@@ -1,5 +1,5 @@
 <template>
-  <div id="result" class="mb-5">
+  <div id="result" class="mb-6">
     <div class="text-center col-md-9 mx-auto mt-6 mb-2 fieldset">
       <span class="text-result bg-white pl-pr head-font-size font-oswald">
         <span class="color-midgray">LATEST</span>
@@ -14,17 +14,18 @@
     <div class="mb-4 score-bg">
       <div class="col-md-9 mx-auto d-flex justify-content-between">
       <div class="my-auto bg-white ml-5"><img src="../assets/images/eng-logo.png" alt=""></div>
-      <div class="d-flex p-3">
-        <span class="m-4">ENGLAND</span>
-        <span>
-          <div class="mb-3 score-font font-weight-bold">SCORE</div>
+      <div class="d-flex p-3 font-oswald">
+        <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
+        <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
+        <span class="outline ">
+          
           <div>
-            <span class="p-3 bg-orange color-midgray">4</span>
+            <span class="vs-padding bg-orange color-midgray"><span class="num-font">4</span></span>
             <span class="vs-position color-midgray "> vs</span>
-            <span class="p-3 bg-lightblack color-yellow"> 2</span>
+            <span class="vs-padding bg-lightblack color-yellow"><span class="num-font"> 2</span></span>
           </div>
         </span>
-        <span class="m-4  ">AMSTERDAM</span>
+        <span class=" my-auto ml-4 country-fontsize ">AMSTERDAM</span>
       </div>
       <div class="my-auto bg-white mr-5"><img src="../assets/images/ame-logo.png" alt=""></div>
     </div>
@@ -36,7 +37,7 @@
       'Content here, content here.
       </div>
     </div>
-    <span class="bg-white pl-5 pr-5 text-more">
+    <span class="bg-white pl-pr text-more">
       <span class="btn-border">
       <span class="bg-orange btn-padding">MORE INFO</span>
       </span>
@@ -97,7 +98,7 @@
   z-index: -1;
   left: 0px;
   right: 0;
-  top: -30px;
+  top: 0px;
   bottom: -60px;
 }
 .fieldset2 {
@@ -135,8 +136,9 @@
   position: absolute;
   z-index: 1;
   text-align: center;
-  left: 48%;
-  padding: 0px 3px 0px 3px;
+      left: 448px;
+    padding: 0px 3px 0px 3px;
+    top: 32px;
 }
 .score-font {
   font-size: 10px;
@@ -146,7 +148,7 @@
   background-color: $bg-lightgray;
 }
 .btn-padding{
-  padding: 9px 40px;
+  padding: 10px 45px;
     font-size: 10px;
     font-weight: bold;
 }
@@ -161,4 +163,23 @@
       padding-left: 60px;
     padding-right: 60px;
 }
+.outline {
+  border: 1px solid $color-yellow;
+ padding: 2px 2px 12px;
+}
+.vs-padding
+{
+  padding: 19px 25px;
+}
+.num-font
+{
+  font-size: 30px;
+}
+.country-fontsize{
+  font-size: 25px;
+}
+.mb-6{
+  margin-bottom: 72px;
+}
+
 </style>

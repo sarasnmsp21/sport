@@ -43,7 +43,7 @@
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto menu-font font-oswald">
               <b-nav-item href="#">HOME</b-nav-item>
-              <b-nav-item href="#">ABOUT</b-nav-item>
+              <b-nav-item href="#"  v-scroll-to="'#result'">ABOUT</b-nav-item>
               <b-nav-item href="#">PAGES</b-nav-item>
               <b-nav-item href="#">MATCH</b-nav-item>
               <b-nav-item href="#">NEWS</b-nav-item>

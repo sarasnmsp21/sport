@@ -11,7 +11,7 @@
           src="../assets/images/banner3.jpg"
           alt="Los Angeles"
           width="100%"
-          height="500"
+          height="600"
         />
         <div class="carousel-caption text-right col-md-9">
           <span class="banner-fontsize banner-text-bg font-oswald">
@@ -33,7 +33,7 @@
           src="../assets/images/banner2.jpg"
           alt="Chicago"
           width="1300"
-          height="500"
+          height="580"
         />
         <div class="carousel-caption">
           <h3>Chicago</h3>
@@ -78,9 +78,9 @@ export default {
   color: $color-lightyellow;
 }
 .banner-text-bg {
-  font-size: 40px;
+  font-size: 44px;
   background: rgba(0, 0, 0, 0.5);
-  padding: 3px 10px;
+padding: 6px 13px;
 }
 .banner-font2 {
   font-size: 20px;
@@ -89,18 +89,20 @@ export default {
 .fontstyle-bg {
   font-size: 10px;
   background-color: $color-lightyellow;
-  padding: 6px 12px;
+  padding: 9px 15px;
   color: $color-dark-gray;
+  font-weight: bold;
 }
 
 .arrow-bg {
   font-size: 10px;
   background-color: $color-dark-gray;
-  padding: 6px 12px;
+  padding: 9px 15px;
   color: $color-lightyellow;
+  font-weight: bold;
 }
 .text-outline {
-  padding: 2px 1px 6px;
+  padding: 5px 1px 9px;
   border: 1px solid #ffc722;
 }
 .carousel-indicators li {

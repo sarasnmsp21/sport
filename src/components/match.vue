@@ -1,19 +1,21 @@
 <template>
   <div class="match-bg">
-    <div class="col-md-9 d-flex mx-auto pt-5 pb-5 p-0">
-      <div class="col-md-6 bg-light p-0">
+    <div class="col-md-9 d-flex mx-auto div-padding">
+      <div class="col-md-6 bg-light p-0 border-b">
         <div class="d-flex">
-          <div class="mt-5 ml-5 match-fontsize">
+          <div class="ml-mt match-fontsize">
             <span class="color-lightblack">NEXT</span>
             <span class="color-orange"> MATCH</span>
           </div>
-         <div></div>
+          <div></div>
         </div>
-        <div id="match" class="bg-lightgray mt-5 mb-4 p-2"></div>
+        <div id="match" class="bg-lightgray timer-mt mb-4 p-2"></div>
         <div>
+          <span><img src="../assets/images/eng-logo.png" alt=""/></span>
           <span class="m-3 color-lightblack">ENGLAND</span>
-          <span class="bg-orange p-1">VS</span>
+          <span class="bg-orange vs-fontsize1 p-1">VS</span>
           <span class="m-3 color-lightblack ">AMSTERDAM</span>
+          <span><img src="../assets/images/ame-logo.png" alt=""/></span>
         </div>
         <div class="mt-2 color-lightgray date-fontsize">
           October 28, 2016 | 8:08 am
@@ -31,10 +33,24 @@
           <div class="date-border-right">
             <div class="p-2">{{ match.date }}</div>
           </div>
-          <div class="p-2 tournament-font mx-auto">
+          <div class="my-auto tournament-font mx-auto ">
+            <span
+              ><img
+                src="../assets/images/eng-logo.png"
+                width="20px"
+                class="mr-3"
+                alt=""
+            /></span>
             <span class="mr-3">{{ match.country1 }}</span>
-            <span class="mr-3 color-orange vs-fontsize">VS</span>
+            <span class="mr-3 color-orange vs-fontsize2">VS</span>
             <span>{{ match.country2 }}</span>
+            <span
+              ><img
+                src="../assets/images/ame-logo.png"
+                width="20px"
+                class="ml-3"
+                alt=""
+            /></span>
           </div>
         </div>
       </div>
@@ -123,9 +139,11 @@ var x = setInterval(function() {
   border-right: 1px solid;
   font-size: 10px;
   padding: 4px 15px;
+  border-color: $color-dark-gray;
 }
 .date-border-bottom {
   border-bottom: 1px solid;
+  border-color: $color-dark-gray;
 }
 .bg-lightgray {
   background: $bg-lightgray;
@@ -140,22 +158,39 @@ var x = setInterval(function() {
   font-size: 12px;
 }
 .tournament-font {
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 600;
 }
-.vs-fontsize {
+.vs-fontsize2 {
   font-size: 10px;
 }
 .match-fontsize {
   font-size: 25px;
 }
-.match-fontsize::before{
-   content: '';
-    height: 1px;
-    background: #ffc722;
-    position: absolute;
-    left: 218px;
-    right: 19px;
-    top: 23%;
+.match-fontsize::before {
+  content: "";
+  height: 1px;
+  background: #ffc722;
+  position: absolute;
+  left: 218px;
+  right: 19px;
+  top: 17%;
 }
+.ml-mt {
+  margin-left: 35px;
+  margin-top: 30px;
+}
+.div-padding {
+  padding: 80px 0px;
+}
+.timer-mt {
+  margin-top: 32px;
+}
+.border-b {
+  border-bottom: 3px solid;
+}
+.vs-fontsize1 {
+  font-size: 12px;
+}
+
 </style>
