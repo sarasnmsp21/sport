@@ -1,10 +1,10 @@
 <template>
   <div class=" mx-auto">
     <div class="col-md-10 mx-auto">
-      <div class="text-right social-icon-position col social-icon-font">
+      <div class="text-right social-icon-position col social-icon-font mt-2">
         <span class="m-3 "
           ><font-awesome-icon :icon="['fab', 'facebook-f']"
-        /></span>
+        /></span> 
         <span class="m-3 "
           ><font-awesome-icon :icon="['fab', 'twitter']"
         /></span>
@@ -22,9 +22,9 @@
       </div>
     </div>
     <div>
-      <b-navbar toggleable="lg" class="menu-position col-md-12 menu-bg">
+      <b-navbar toggleable="lg" class="menu-position col-md-12 menu-bg ">
         <div class="col-md-10 d-flex mx-auto">
-          <b-navbar-brand href="#" class="brandname-font">
+          <b-navbar-brand href="#" class="brandname-font font-oswald600">
             <img
               src="../assets/images/football2.png"
               alt=""
@@ -41,7 +41,7 @@
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
           <b-collapse id="nav-collapse" is-nav>
-            <b-navbar-nav class="ml-auto menu-font ">
+            <b-navbar-nav class="ml-auto menu-font font-oswald">
               <b-nav-item href="#">HOME</b-nav-item>
               <b-nav-item href="#">ABOUT</b-nav-item>
               <b-nav-item href="#">PAGES</b-nav-item>
@@ -65,13 +65,13 @@
   z-index: 1;
 }
 .social-icon-font {
-  font-size: 12px;
-  color: $color-light-gray;
+  font-size: 11px;
+  color: #d0cfcf;
 }
 .menu-position {
   position: absolute;
   z-index: 1;
-  top: 20px;
+  top: 25px;
 }
 .menu-bg {
   background-color: $menu-bg;
@@ -91,11 +91,19 @@
 }
 .navbar-light .navbar-nav .nav-link {
   color: $color-white;
-  padding: 20px;
+  padding: 18px;
   border-bottom: 3px solid transparent;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: $color-lightyellow;
+  border-bottom: 3px solid $color-lightyellow;
+}
+// .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
+//    color: $color-lightyellow;
+//   border-bottom: 3px solid $color-lightyellow;
+// }
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+     color: $color-lightyellow;
   border-bottom: 3px solid $color-lightyellow;
 }
 
@@ -105,7 +113,7 @@
   -webkit-transform: skewX(-33deg);
   background: #ffc722;
   position: absolute;
-  right: 832px;
+  right: 878px;
   top: 0;
   bottom: 0;
   left: -1000%;
@@ -117,7 +125,7 @@
   -webkit-transform: skewX(-33deg);
   background: #fdbd00;
   position: absolute;
-  right: 826px;
+  right: 871px;
   top: -30px;
   bottom: -11px;
   left: -1000%;

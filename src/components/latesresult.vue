@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-5">
+  <div id="result" class="mb-5">
     <div class="text-center col-md-9 mx-auto mt-5 mb-2 fieldset">
       <span class="m-3 text-result bg-white p-5 head-font-size">
         <span class="color-midgray">LATEST</span>

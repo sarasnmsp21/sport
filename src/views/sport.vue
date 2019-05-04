@@ -2,7 +2,7 @@
   <div>
     <Nav-head></Nav-head>
     <swiperhead></swiperhead>
-    <latesresult></latesresult>
+    <latesresult v-scroll-to="'#result'"></latesresult>
     <abouteam></abouteam>
     <supporteam></supporteam>
     <match></match>

@@ -149,4 +149,13 @@ var x = setInterval(function() {
 .match-fontsize {
   font-size: 25px;
 }
+.match-fontsize::before{
+   content: '';
+    height: 1px;
+    background: #ffc722;
+    position: absolute;
+    left: 218px;
+    right: 19px;
+    top: 23%;
+}
 </style>
