@@ -13,16 +13,16 @@
           width="100%"
           height="500"
         />
-        <div class="carousel-caption text-right">
-          <span class="banner-fontsize banner-text-bg">
+        <div class="carousel-caption text-right col-md-9">
+          <span class="banner-fontsize banner-text-bg font-oswald">
             <span class="color-white ">LIFE IS</span>
             <span class="color-orange "> ABOUT TIMING</span>
           </span>
-          <div class="banner-font2 mb-4 mt-2">
+          <div class="banner-font2 mb-4 font-oswald">
             <span>Just play.</span><span class="color-orange"> Have fun.</span
             ><span> Enjoy the game</span>
           </div>
-          <span class="mb-5 text-outline">
+          <span class="text-outline">
             <span class="fontstyle-bg">READ MORE</span>
             <span class="arrow-bg"> > </span>
           </span>
@@ -78,29 +78,29 @@ export default {
   color: $color-lightyellow;
 }
 .banner-text-bg {
-  font-size: 55px;
+  font-size: 40px;
   background: rgba(0, 0, 0, 0.5);
-  // font-family: 'Oswald';
-  font-weight: 400;
+  padding: 3px 10px;
 }
 .banner-font2 {
   font-size: 20px;
+  line-height: 20px;
 }
 .fontstyle-bg {
-  font-size: 15px;
+  font-size: 10px;
   background-color: $color-lightyellow;
-  padding: 5px;
+  padding: 6px 12px;
   color: $color-dark-gray;
 }
 
 .arrow-bg {
-  font-size: 15px;
+  font-size: 10px;
   background-color: $color-dark-gray;
-  padding: 5px;
+  padding: 6px 12px;
   color: $color-lightyellow;
 }
 .text-outline {
-  padding: 7px 3px;
+  padding: 2px 1px 6px;
   border: 1px solid #ffc722;
 }
 .carousel-indicators li {
@@ -113,5 +113,8 @@ export default {
 }
 .carousel-indicators .active {
   background-color: $color-lightyellow;
+}
+.carousel-caption {
+  padding-bottom: 60px;
 }
 </style>

@@ -1,18 +1,19 @@
 <template>
   <div id="result" class="mb-5">
-    <div class="text-center col-md-9 mx-auto mt-5 mb-2 fieldset">
-      <span class="m-3 text-result bg-white p-5 head-font-size">
+    <div class="text-center col-md-9 mx-auto mt-6 mb-2 fieldset">
+      <span class="text-result bg-white pl-pr head-font-size font-oswald">
         <span class="color-midgray">LATEST</span>
         <span class="color-yellow "> RESULTS</span>
       </span>
-      <div class="mt-4 place-font">Cambridgeshire UK</div>
-      <div class="m-3 color-lightgray date-fontsize">
+      <div class="mt-3 place-font">Cambridgeshire UK</div>
+      <div class="mt-3 mb-3 color-lightgray tourdate-fontsize">
         November 13, 2015 | 9:00 pm
       </div>
     </div>
 
-    <div class="d-flex justify-content-between mb-5 score-bg">
-      <div></div>
+    <div class="mb-4 score-bg">
+      <div class="col-md-9 mx-auto d-flex justify-content-between">
+      <div class="my-auto bg-white ml-5"><img src="../assets/images/eng-logo.png" alt=""></div>
       <div class="d-flex p-3">
         <span class="m-4">ENGLAND</span>
         <span>
@@ -25,12 +26,15 @@
         </span>
         <span class="m-4  ">AMSTERDAM</span>
       </div>
-      <div></div>
+      <div class="my-auto bg-white mr-5"><img src="../assets/images/ame-logo.png" alt=""></div>
+    </div>
     </div>
     <div class="col-md-9 mx-auto fieldset2 color-lightgray date-fontsize mb-5">
+      <div class="col-md-8 mx-auto">
       It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. as opposed to using
-      'Content here, content here', making it look like readable English.
+      'Content here, content here.
+      </div>
     </div>
     <span class="bg-white pl-5 pr-5 text-more">
       <span class="btn-border">
@@ -82,7 +86,7 @@
   z-index: -1;
   left: 0;
   right: 0;
-  top: 20px;
+  top: 22px;
   bottom: 0;
 }
 .fieldset2::after {
@@ -116,13 +120,13 @@
   z-index: 1;
 }
 .head-font-size {
-  font-size: 28px;
+  font-size: 30px;
 }
 .place-font {
-  font-size: 18px;
+  font-size: 16px;
   color: $color-mid-gray;
 }
-.date-fontsize {
+.tourdate-fontsize {
   font-size: 12px;
 }
 .vs-position {
@@ -149,5 +153,12 @@
 .btn-border{
       border: 1px solid #fdbd00;
     padding: 6px 2px 10px 2px;
+}
+.mt-6{
+  margin-top: 65px;
+}
+.pl-pr{
+      padding-left: 60px;
+    padding-right: 60px;
 }
 </style>

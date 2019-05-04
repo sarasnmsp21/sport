@@ -133,12 +133,7 @@
                     width="100%"
                 /></b-col>
                 <b-col class="p-0"
-                  ><img
-                    fluid
-                    src="../assets/images/g14.jpg"
-                    alt="Image 1"
-                    width="100%"
-                /></b-col>
+                  ></b-col>
               </b-row>
             </div></div
         ></b-tab>

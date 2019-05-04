@@ -82,19 +82,19 @@
 .heading-fontsize {
   font-size: 30px;
 }
-.col2-bg::after {
- content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0.9;
-    right: -1000%;
-    z-index: -1;
-    transform: skew(-33deg);
-    display: block;
-    background: #363533;
-}
+// .col2-bg::after {
+//  content: '';
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     bottom: 0;
+//     opacity: 0.9;
+//     right: -1000%;
+//     z-index: -1;
+//     transform: skew(-33deg);
+//     display: block;
+//     background: #363533;
+// }
 .col2-bg {
   z-index: 1;
   padding: 65px 0px 77px 0px;

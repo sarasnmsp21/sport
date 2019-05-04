@@ -113,7 +113,7 @@
   -webkit-transform: skewX(-33deg);
   background: #ffc722;
   position: absolute;
-  right: 878px;
+  right: 833px;
   top: 0;
   bottom: 0;
   left: -1000%;
@@ -125,7 +125,7 @@
   -webkit-transform: skewX(-33deg);
   background: #fdbd00;
   position: absolute;
-  right: 871px;
+  right: 827px;
   top: -30px;
   bottom: -11px;
   left: -1000%;
