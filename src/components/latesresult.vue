@@ -13,28 +13,29 @@
 
     <div class="mb-4 score-bg">
       <div class="col-md-9 mx-auto d-flex justify-content-between">
-      <div class="my-auto bg-white ml-5"><img src="../assets/images/eng-logo.png" alt=""></div>
+      <div class="my-auto bg-white ml-5 img-border"><img src="../assets/images/eng-logo.png" alt=""></div>
+     
       <div class="d-flex p-3 font-oswald">
         <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
         <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
-        <span class="outline ">
-          
-          <div>
+        <span>
+        <!-- <span class="text-center">Scored</span>           -->
+          <div class="outline ">
             <span class="vs-padding bg-orange color-midgray"><span class="num-font">4</span></span>
             <span class="vs-position color-midgray "> vs</span>
             <span class="vs-padding bg-lightblack color-yellow"><span class="num-font"> 2</span></span>
-          </div>
+          </div>  
         </span>
         <span class=" my-auto ml-4 country-fontsize ">AMSTERDAM</span>
       </div>
-      <div class="my-auto bg-white mr-5"><img src="../assets/images/ame-logo.png" alt=""></div>
+      <div class="my-auto bg-white mr-5 img-border"><img src="../assets/images/ame-logo.png" alt=""></div>
     </div>
     </div>
     <div class="col-md-9 mx-auto fieldset2 color-lightgray date-fontsize mb-5">
       <div class="col-md-8 mx-auto">
       It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. as opposed to using
-      'Content here, content here.
+      'Content here, content here will be when distracted.
       </div>
     </div>
     <span class="bg-white pl-pr text-more">
@@ -76,9 +77,6 @@
 .bg-orange {
   background-color: $color-yellow;
 }
-.bg-white {
-  background-color: $color-white;
-}
 .fieldset::before {
   content: "";
   border: solid $color-yellow;
@@ -110,7 +108,7 @@
 .fieldset.text-result {
   padding: 0 65px;
   background: $color-white;
-  font-size: 38px;
+  font-size: 2.375rem;
   text-transform: uppercase;
   display: inline-block;
   position: relative;
@@ -118,17 +116,17 @@
 .fieldset {
   text-align: center;
   position: relative;
-  z-index: 1;
+  z-index: 1; 
 }
 .head-font-size {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .place-font {
-  font-size: 16px;
+  font-size: 1rem;
   color: $color-mid-gray;
 }
 .tourdate-fontsize {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .vs-position {
   border-radius: 50%;
@@ -136,12 +134,12 @@
   position: absolute;
   z-index: 1;
   text-align: center;
-      left: 448px;
-    padding: 0px 3px 0px 3px;
-    top: 32px;
+  left: 448px;
+  padding: 0px 3px 0px 3px;
+  top: 32px;
 }
 .score-font {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: $color-light-gray;
 }
 .score-bg {
@@ -149,7 +147,7 @@
 }
 .btn-padding{
   padding: 10px 45px;
-    font-size: 10px;
+    font-size: 0.625rem;
     font-weight: bold;
 }
 .btn-border{
@@ -173,13 +171,16 @@
 }
 .num-font
 {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .country-fontsize{
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 .mb-6{
   margin-bottom: 72px;
+}
+.img-border{
+  border:1px solid $color-social;
 }
 
 </style>

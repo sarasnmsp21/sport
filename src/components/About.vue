@@ -2,7 +2,7 @@
   <div class=" about-bg">
     <div class="d-flex justify-content-between col-md-9 mx-auto p-0">
       <div class="text-left relative  col1-bg col-md-6">
-        <div class="work-sans mb-3 about-fontsize">
+        <div class="font-oswald600 mb-3 about-fontsize">
           <span class="color-midgray">ABOUT</span>
           <span class="color-white"> TEAM</span>
         </div>
@@ -30,7 +30,13 @@
           <span class="color-yellow font-oswald600 pr-3">FERNANDEZ</span>
         </div>
         <div class="text-white font-oswald600">
-          <div class="pb-4">TRAINERS</div>
+          <div>
+          <span>
+            <span class="bg-lightblack arrow-padding"><</span>
+            <span class="bg-orange arrow-padding">></span>
+          </span>
+          <div class="pb-4 about-fontsize float-right">TRAINERS</div>
+          </div>
           <div>
             <img
               src="../assets/images/sportman.jpg"
@@ -101,6 +107,9 @@
   z-index: 1;
   padding: 65px 0px 77px 0px;
 }
+.arrow-padding{
+  padding:5px 3px;
+}
 .para-lineheight {
   line-height: 20px;
 }
@@ -109,8 +118,9 @@
 }
 .float-text {
   float: left;
-  margin-left: 121px;
+  margin-left: 90px;
   vertical-align: bottom;
-  margin-top: 203px;
+  margin-top: 206px;
+  font-size: 24px;
 }
 </style>
