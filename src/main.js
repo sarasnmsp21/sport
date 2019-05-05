@@ -10,6 +10,7 @@ var VueScrollTo = require('vue-scrollto');
 Vue.use(VueScrollTo)
 
 Vue.use(BootstrapVue);
+
 import { library } from "@fortawesome/fontawesome-svg-core";
 
 import {

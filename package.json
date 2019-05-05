@@ -17,6 +17,7 @@
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.19",
     "core-js": "^2.6.5",
+    "resolve-url-loader": "^3.1.0",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
     "vue-scrollto": "^2.15.0",

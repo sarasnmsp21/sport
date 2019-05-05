@@ -1,10 +1,10 @@
 <template>
-  <div class=" mx-auto">
+  <div>
     <div class="col-md-10 mx-auto">
       <div class="text-right social-icon-position col social-icon-font mt-2">
-        <span class="m-3 "
-          ><font-awesome-icon :icon="['fab', 'facebook-f']"
-        /></span> 
+        <span class="m-3 ">
+          <font-awesome-icon :icon="['fab', 'facebook-f']"/>
+        </span> 
         <span class="m-3 "
           ><font-awesome-icon :icon="['fab', 'twitter']"
         /></span>
@@ -60,28 +60,29 @@
 </template>
 <style lang="scss">
 @import "../assets/scss/variables.scss";
+
 .social-icon-position {
   position: absolute;
   z-index: 1;
 }
 .social-icon-font {
-  font-size: 11px;
-  color: #d0cfcf;
+  font-size: 0.6875rem;
+  color: $color-social;
 }
 .menu-position {
   position: absolute;
   z-index: 1;
-  top: 25px;
+  top: 1.75rem;
 }
 .menu-bg {
   background-color: $menu-bg;
   padding: 0px;
 }
 .menu-font {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .brandname-font {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .brandname-color {
   color: $color-white;
@@ -91,17 +92,13 @@
 }
 .navbar-light .navbar-nav .nav-link {
   color: $color-white;
-  padding: 18px;
+  padding: 1.125rem;
   border-bottom: 3px solid transparent;
 }
 .navbar-light .navbar-nav .nav-link:hover {
   color: $color-lightyellow;
   border-bottom: 3px solid $color-lightyellow;
 }
-// .navbar-light .navbar-nav .show > .nav-link, .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .nav-link.active{
-//    color: $color-lightyellow;
-//   border-bottom: 3px solid $color-lightyellow;
-// }
 .navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
      color: $color-lightyellow;
   border-bottom: 3px solid $color-lightyellow;

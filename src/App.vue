@@ -34,7 +34,7 @@
 @font-face {
   font-family: "Oswald";
   font-style: normal;
-  font-weight: 300;
+  font-weight: 600;
   src: local("Oswald Light"), local("Oswald-Light"),
     url(https://fonts.gstatic.com/s/oswald/v17/TK3hWkUHHAIjg75-sh0Tvs9CE5Q.woff2)
       format("woff2");
@@ -112,4 +112,5 @@
     }
   }
 }
+
 </style>
