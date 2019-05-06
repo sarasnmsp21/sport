@@ -32,10 +32,10 @@
     </div>
     </div>
     <div class="col-md-9 mx-auto fieldset2 color-lightgray date-fontsize mb-5">
-      <div class="col-md-8 mx-auto">
+      <div class="col-md-8 mx-auto work-sans">
       It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. as opposed to using
-      'Content here, content here will be when distracted.
+      'Content here, content.
       </div>
     </div>
     <span class="bg-white pl-pr text-more">
@@ -134,9 +134,10 @@
   position: absolute;
   z-index: 1;
   text-align: center;
-  left: 448px;
-  padding: 0px 3px 0px 3px;
+  left: 452px;
+  padding: 0px 5px 1px 5px;
   top: 32px;
+  font-size: 15px;
 }
 .score-font {
   font-size: 0.625rem;
@@ -162,8 +163,8 @@
     padding-right: 60px;
 }
 .outline {
-  border: 1px solid $color-yellow;
- padding: 2px 2px 12px;
+  outline: 1px solid $color-yellow;
+ padding: 3px 1px 16px;
 }
 .vs-padding
 {

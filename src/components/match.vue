@@ -1,6 +1,6 @@
 <template>
-  <div class="match-bg">
-    <div class="col-md-9 d-flex mx-auto div-padding">
+  <div id="next-match" class="match-bg">
+    <div class="col-md-9 d-flex mx-auto div-padding font-oswald">
       <div class="col-md-6 bg-light p-0 border-b">
         <div class="d-flex">
           <div class="ml-mt match-fontsize">

@@ -1,13 +1,15 @@
 <template>
-  <div>
-    <div class="d-flex col-md-9 mx-auto gallery-bg">
-      <div class="my-auto gallery-font font-oswald600 ">GALLERY</div>
-      <div class="my-auto para-ml text-left color-lightgray fontsize-lh ">
+  <div id="gallery">
+    <div class="d-flex col-md-9 mx-auto gallery-bg mt-4">
+      <div class="my-auto gallery-font font-oswald ">GALLERY</div>
+      <div
+        class="my-auto para-ml text-left color-lightgray fontsize-lh work-sans"
+      >
         The point of using Lorem Ipsum is that it has a more-or-less normal
         distribution of letters, as opposed to using 'Content here, content
       </div>
     </div>
-    <div class="bg-lightblack">
+    <div class="bg-lightblack font-oswald">
       <b-tabs content-class="mt-3">
         <b-tab title="ALL" active><gallery></gallery></b-tab>
         <b-tab title="VOLLEYBALL"><gallery></gallery></b-tab>

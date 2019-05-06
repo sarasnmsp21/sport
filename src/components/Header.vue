@@ -1,10 +1,10 @@
 <template>
-  <div>
+  <div id="home">
     <div class="col-md-10 mx-auto">
       <div class="text-right social-icon-position col social-icon-font mt-2">
         <span class="m-3 ">
-          <font-awesome-icon :icon="['fab', 'facebook-f']"/>
-        </span> 
+          <font-awesome-icon :icon="['fab', 'facebook-f']" />
+        </span>
         <span class="m-3 "
           ><font-awesome-icon :icon="['fab', 'twitter']"
         /></span>
@@ -22,9 +22,9 @@
       </div>
     </div>
     <div>
-      <b-navbar toggleable="lg" class="menu-position col-md-12 menu-bg ">
+      <b-navbar toggleable="lg" class="menu-position col-md-12 menu-bg fixed ">
         <div class="col-md-10 d-flex mx-auto">
-          <b-navbar-brand href="#" class="brandname-font font-oswald600">
+          <b-navbar-brand href="#" class="brandname-font font-oswald">
             <img
               src="../assets/images/football2.png"
               alt=""
@@ -42,13 +42,13 @@
 
           <b-collapse id="nav-collapse" is-nav>
             <b-navbar-nav class="ml-auto menu-font font-oswald">
-              <b-nav-item href="#">HOME</b-nav-item>
-              <b-nav-item href="#"  v-scroll-to="'#result'">ABOUT</b-nav-item>
-              <b-nav-item href="#">PAGES</b-nav-item>
-              <b-nav-item href="#">MATCH</b-nav-item>
-              <b-nav-item href="#">NEWS</b-nav-item>
-              <b-nav-item href="#">SHOP</b-nav-item>
-              <b-nav-item href="#">CONTACT</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#home'">HOME</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#result'">ABOUT</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#team'">PAGES</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#support'">MATCH</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#next-match'">NEWS</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#news'">SHOP</b-nav-item>
+              <b-nav-item href="#" v-scroll-to="'#gallery'">CONTACT</b-nav-item>
             </b-navbar-nav>
 
             <!-- Right aligned nav items -->
@@ -68,6 +68,7 @@
 .social-icon-font {
   font-size: 0.6875rem;
   color: $color-social;
+  cursor: pointer;
 }
 .menu-position {
   position: absolute;
@@ -84,6 +85,10 @@
 .brandname-font {
   font-size: 1.875rem;
 }
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0;
+    padding-bottom: 0;}
 .brandname-color {
   color: $color-white;
 }
@@ -99,8 +104,9 @@
   color: $color-lightyellow;
   border-bottom: 3px solid $color-lightyellow;
 }
-.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
-     color: $color-lightyellow;
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus {
+  color: $color-lightyellow;
   border-bottom: 3px solid $color-lightyellow;
 }
 

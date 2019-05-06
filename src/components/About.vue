@@ -1,16 +1,16 @@
 <template>
-  <div class=" about-bg">
+  <div id="team" class=" about-bg">
     <div class="d-flex justify-content-between col-md-9 mx-auto p-0">
       <div class="text-left relative  col1-bg col-md-6">
-        <div class="font-oswald600 mb-3 about-fontsize">
+        <div class="font-oswald mb-3 about-fontsize">
           <span class="color-midgray">ABOUT</span>
           <span class="color-white"> TEAM</span>
         </div>
-        <div class="font-oswald para-lineheight color-midgray">
+        <div class="work-sans para-lineheight color-midgray">
           <p>
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. making it
-            look like readable English.Ipsum is that it 
+            look like readable English.Ipsum is that it
           </p>
           <p>
             The point of using Lorem Ipsum is that it has a more-or-less normal
@@ -26,16 +26,16 @@
       </div>
       <div class="text-right col2-bg col-md-6 ">
         <div class="float-text">
-          <span class="text-white font-oswald600 pr-3">BERNARD</span><br />
-          <span class="color-yellow font-oswald600 pr-3">FERNANDEZ</span>
+          <span class="text-white font-oswald pr-3">BERNARD</span><br />
+          <span class="color-yellow font-oswald pr-3">FERNANDEZ</span>
         </div>
-        <div class="text-white font-oswald600">
+        <div class="text-white font-oswald">
           <div>
-          <span>
-            <span class="bg-lightblack arrow-padding"><</span>
-            <span class="bg-orange arrow-padding">></span>
-          </span>
-          <div class="pb-4 about-fontsize float-right">TRAINERS</div>
+            <!-- <span>
+              <span class="bg-lightblack arrow-padding"><</span>
+              <span class="bg-orange arrow-padding">></span>
+            </span> -->
+            <div class="pb-4 about-fontsize float-right">TRAINERS</div>
           </div>
           <div>
             <img
@@ -107,8 +107,8 @@
   z-index: 1;
   padding: 65px 0px 77px 0px;
 }
-.arrow-padding{
-  padding:5px 3px;
+.arrow-padding {
+  padding: 5px 3px;
 }
 .para-lineheight {
   line-height: 20px;
@@ -118,9 +118,9 @@
 }
 .float-text {
   float: left;
-  margin-left: 90px;
+  margin-left: 124px;
   vertical-align: bottom;
-  margin-top: 206px;
+  margin-top: 201px;
   font-size: 24px;
 }
 </style>

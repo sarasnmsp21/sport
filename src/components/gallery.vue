@@ -1,6 +1,5 @@
 <template>
   <div>
-   
     <div>
       <div>
         <b-row class="p-0 m-0">
@@ -87,6 +86,6 @@
   padding: 30px 10px 20px 0px;
 }
 .para-ml {
-  margin-left: 150px;
+  margin-left: 185px;
 }
 </style>

@@ -1,12 +1,12 @@
 <template>
-  <div class="bg-position">
-    <div class="col-md-9 mx-auto mt-5 mb-5">
-      <div class="heading-fontsize font-oswald600  ">
+  <div id="news" class="bg-position">
+    <div class="col-md-9 mx-auto mt-5">
+      <div class="heading-fontsize font-oswald  ">
         <span class="color-lightblack">OUR</span>
         <span class="color-orange"> NEWS</span>
       </div>
       <div
-        class="mt-3 mb-4 col-md-8 mx-auto color-lightgray head-para-fontsize"
+        class="mt-3 mb-4 col-md-8 mx-auto color-lightgray head-para-fontsize work-sans"
       >
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout. as opposed to
@@ -16,7 +16,7 @@
         <div>
           <img src="../assets/images/player.jpeg" width="100%" height="100%" />
         </div>
-        <div class="bg-lightgray p-3">
+        <div class="bg-lightgray p-3   work-sans">
           <div class="news-date-font pt-1 pb-2 color-lightgray">
             Nov 19, 2015
           </div>
@@ -33,7 +33,7 @@
         <div>
           <img src="../assets/images/player.jpeg" width="100%" height="100%" />
         </div>
-        <div class="bg-lightgray p-3">
+        <div class="bg-lightgray p-3 work-sans">
           <div class="news-date-font pt-1 pb-2 color-lightgray">
             Nov 19, 2015
           </div>
@@ -63,11 +63,11 @@
 }
 .bg-image {
   background: url("../assets/images/ground8.jpg") no-repeat;
-  height: 250px;
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  top: 224px;
+     height: 246px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    top: 230px;
 }
 .news-date-font {
   font-size: 10px;
@@ -86,6 +86,7 @@
   font-size: 9px;
   font-weight: bold;
   padding-top: 20px;
+  cursor: pointer;
 }
 .news-fontsize {
   font-size: 14px;
