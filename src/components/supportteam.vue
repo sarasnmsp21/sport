@@ -1,21 +1,21 @@
 <template>
-  <div class="col-md-9 p-0 mx-auto background mt-mb">
-    <div class="text-center col-md-10 mx-auto padding ">
-      <div class="div-outline black-bg">
-        <div>
+  <div class="col-md-9 p-0 mx-auto ">
+    <div class="text-center  padding background mt-mb ">
+      <div class=" black-bg">
+        
           <span class="support-fontsize font-oswald600 ">
             <span class=" color-orange">SUPPORT</span>
             <span class="text-white"> TEAM</span>
           </span>
 
-          <div class="m-3 text-white">
+          <div class="m-3 text-white col-md-9 mx-auto para-fontsize mb-5">
             The point of using Lorem Ipsum is that it has a more-or-less normal
             distribution of letters, as opposed to using 'Content here, content
             here', making it readable English. distribution of letters, as
             opposed to using 'Content here, content here', making it look like.
           </div>
-          <div class="">
-            <span class="mb-4 text-white top-border">
+          <div class="mb-4">
+            <span class="mb-4 text-white top-border ">
               <span class="mr-4">$5</span>
               <span class="mr-4">$10</span>
               <span class="mr-4">$25</span>
@@ -23,11 +23,12 @@
               <span class="mr-4">$75</span>
               <span class="mr-4">$100</span>
             </span>
-            <span class="btn-border">
+           
+          </div>
+           <span class="btn-border">
               <span class="bg-orange btn-padding">DONATE</span>
             </span>
-          </div>
-        </div>
+        
       </div>
     </div>
   </div>
@@ -64,6 +65,9 @@ legend {
   margin-top: 70px;
   margin-bottom: 70px;
 }
+.para-fontsize{
+  font-size:14px;
+}
 .support-fontsize {
   font-size: 30px;
 }
@@ -79,7 +83,7 @@ legend {
     width: 25%;
     position: absolute;
     top: 70px;
-    bottom: 70px;
+    bottom: 60px;
     left: 70px;
     border: solid #ffc722;
     border-width: 1px 0 1px 1px;
@@ -89,7 +93,7 @@ legend {
     width: 25%;
     position: absolute;
     top: 70px;
-    bottom: 70px;
+    bottom: 60px;
     right: 70px;
     border: solid #ffc722;
     border-width: 1px 1px 1px 0;
