@@ -1,6 +1,6 @@
 <template>
   <div class="col-md-9 p-0 mx-auto background mt-mb">
-    <div class="text-center col-md-10 mx-auto p-5 ">
+    <div class="text-center col-md-10 mx-auto padding ">
       <div class="div-outline black-bg">
         <div>
           <span class="support-fontsize font-oswald600 ">
@@ -41,9 +41,12 @@ legend {
   width: 40%;
 }
 .background {
+      margin: 90px 0 90px 0 !important;
+    position: relative;
+    text-align: center;
+    background-size: cover;
   background: linear-gradient(to bottom rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
     url("../assets/images/banner3.jpg");
-  background-size: cover;
   z-index: -1;
 }
 .black-bg::after {
@@ -54,9 +57,9 @@ legend {
 .color-lightblack {
   color: $bg-lightblack;
 }
-.div-outline {
-  border: 1px solid $color-lightyellow;
-}
+// .div-outline {
+//   border: 1px solid $color-lightyellow;
+// }
 .mt-mb {
   margin-top: 70px;
   margin-bottom: 70px;
@@ -66,5 +69,29 @@ legend {
 }
 .top-border {
   border-top: 3px solid;
+}
+.padding {
+      padding: 55px 0 50px 0;
+    position: relative;
+}
+.padding::before{
+  content: '';
+    width: 25%;
+    position: absolute;
+    top: 70px;
+    bottom: 70px;
+    left: 70px;
+    border: solid #ffc722;
+    border-width: 1px 0 1px 1px;
+}
+.padding::after{
+      content: '';
+    width: 25%;
+    position: absolute;
+    top: 70px;
+    bottom: 70px;
+    right: 70px;
+    border: solid #ffc722;
+    border-width: 1px 1px 1px 0;
 }
 </style>
