@@ -1,6 +1,6 @@
 <template>
   <div id="gallery">
-    <div class="d-flex col-md-9 mx-auto gallery-bg mt-4">
+    <div class="d-flex col-md-9 mx-auto gallery-bg mt-4 pt-4">
       <div class="my-auto gallery-font font-oswald ">GALLERY</div>
       <div
         class="my-auto para-ml text-left color-lightgray fontsize-lh work-sans"
@@ -32,7 +32,7 @@ export default {
 <style lang="scss">
 @import "../assets/scss/variables.scss";
 .fontsize-lh {
-  font-size: 15px;
+  font-size: 0.9375rem;
   line-height: 18px;
 }
 .nav-tabs .nav-link.active,
@@ -48,7 +48,7 @@ export default {
 .nav-tabs {
   border: 0;
   margin-left: 162px;
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .nav-tabs .nav-link {
   border: 0;

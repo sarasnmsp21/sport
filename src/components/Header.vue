@@ -80,7 +80,7 @@
   padding: 0px;
 }
 .menu-font {
-  font-size: 0.875rem;
+  font-size: 0.87rem;
 }
 .brandname-font {
   font-size: 1.875rem;

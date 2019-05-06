@@ -3,17 +3,137 @@
     <md-card-media>
       <!-- swiper -->
       <swiper :options="swiperOption">
-        <swiper-slide>slide1 </swiper-slide>
-        <swiper-slide>Slide 2</swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 4</swiper-slide>
-        <swiper-slide>Slide 5</swiper-slide>
-        <swiper-slide>Slide 6</swiper-slide>
-        <swiper-slide>Slide 7</swiper-slide>
-        <swiper-slide>Slide 8</swiper-slide>
-        <swiper-slide>Slide 9</swiper-slide>
-        <swiper-slide>Slide 10</swiper-slide>
-        <div class="swiper-pagination" slot="pagination"></div>
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div>
+        </swiper-slide>
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div></swiper-slide
+        >
+        <swiper-slide>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" width="200px" />
+            <div class="d-flex">
+              <div class="font-oswald color-lightblack bg-lightblack flex-fill">
+                STEVEN WEBB
+              </div>
+              <div class="font-oswald color-lightblack  bg-orange flex-fill">
+                BUY
+              </div>
+            </div>
+          </div></swiper-slide
+        >
+        <!-- <div class="swiper-pagination" slot="pagination"></div> -->
       </swiper>
     </md-card-media>
   </md-card>
@@ -24,34 +144,31 @@ export default {
   data() {
     return {
       swiperOption: {
-        slidesPerView: 5,
-        spaceBetween: 50,
-        // init: false,
+        slidesPerView: 4,
+        spaceBetween: 30,
+        centeredSlides: true,
         pagination: {
           el: ".swiper-pagination",
           clickable: true
-        },
-        breakpoints: {
-          1024: {
-            slidesPerView: 4,
-            spaceBetween: 40
-          },
-          768: {
-            slidesPerView: 3,
-            spaceBetween: 30
-          },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20
-          },
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 10
-          }
         }
       }
     };
   }
 };
 </script>
-<style lang="scss"></style>
+
+<style scoped>
+/* .swiper-slide {
+  width: 200px;
+  background: url(/img/g3.34ed0187.jpg) no-repeat;
+} */
+/* .swiper-slide:nth-child(2n) {
+  width: 40%;
+}
+.swiper-slide:nth-child(3n) {
+  width: 20%;
+} */
+.swiper-slide {
+  width: 200px !important;
+}
+</style>

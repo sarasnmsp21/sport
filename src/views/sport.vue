@@ -11,7 +11,6 @@
     <!-- <awards></awards> -->
     <ourteam></ourteam>
     <funshop></funshop>
-    <swiper></swiper>
     <lastvideo></lastvideo>
     <contact></contact>
     <bottom></bottom>
@@ -28,9 +27,8 @@ import supporteam from "@/components/supportteam.vue";
 import match from "@/components/match.vue";
 import news from "@/components/news.vue";
 import gallerytab from "@/components/gallerytab.vue";
-import awards from "@/components/awards.vue";
+// import awards from "@/components/awards.vue";
 import ourteam from "@/components/ourteam.vue";
-import swiper from "@/components/swiper.vue";
 import funshop from "@/components/funshop.vue";
 import lastvideo from "@/components/lastvideo.vue";
 import contact from "@/components/contact.vue";
@@ -46,9 +44,8 @@ export default {
     match,
     news,
     gallerytab,
-    awards,
+    // awards,
     ourteam,
-    swiper,
     funshop,
     lastvideo,
     contact,

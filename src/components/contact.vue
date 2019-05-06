@@ -10,7 +10,7 @@
       ></iframe>
     </div>
     <div class="col-md-6 bg-light pr-5 pt-5">
-      <div>GET IN TOUCH</div>
+      <div class="color-lightblack font-oswald video-fontsize">GET IN TOUCH</div>
       <div class="mb-3"><input type="text" placeholder="Name" /></div>
       <div class="mb-3"><input type="email" placeholder="Email" /></div>
       <div class="mb-3"><input type="text" placeholder="Message" /></div>

@@ -20,12 +20,12 @@
             <span class="color-white ">LIFE IS</span>
             <span class="color-orange "> ABOUT TIMING</span>
           </span>
-          <div class="banner-font2 mb-4 font-oswald">
+          <div class="banner-font2 mb-4 work-sans">
             <span>Just play.</span><span class="color-orange"> Have fun.</span
             ><span> Enjoy the game</span>
           </div>
-          <span class="text-border">
-            <span class="fontstyle-bg">READ MORE</span>
+          <span class="text-border work-sans">
+            <span class="fontstyle-bg color-midgray">READ MORE</span>
             <span class="arrow-bg"> > </span>
           </span>
         </div>
@@ -42,12 +42,12 @@
             <span class="color-white ">LIFE IS</span>
             <span class="color-orange "> ABOUT TIMING</span>
           </span>
-          <div class="banner-font2 mb-4 font-oswald">
+          <div class="banner-font2 mb-4 work-sans">
             <span>Just play.</span><span class="color-orange"> Have fun.</span
             ><span> Enjoy the game</span>
           </div>
-          <span class="text-border">
-            <span class="fontstyle-bg">READ MORE</span>
+          <span class="text-border work-sans">
+            <span class="fontstyle-bg color-midgray">READ MORE</span>
             <span class="arrow-bg"> > </span>
           </span>
         </div>
@@ -64,12 +64,12 @@
             <span class="color-white ">LIFE IS</span>
             <span class="color-orange "> ABOUT TIMING</span>
           </span>
-          <div class="banner-font2 mb-4 font-oswald">
+          <div class="banner-font2 mb-4 work-sans">
             <span>Just play.</span><span class="color-orange"> Have fun.</span
             ><span> Enjoy the game</span>
           </div>
-          <span class="text-border">
-            <span class="fontstyle-bg">READ MORE</span>
+          <span class="text-border work-sans">
+            <span class="fontstyle-bg color-midgray">READ MORE</span>
             <span class="arrow-bg"> > </span>
           </span>
         </div>
@@ -105,14 +105,13 @@ export default {
   padding: 0px 15px;
 }
 .banner-font2 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   line-height: 28px;
 }
 .fontstyle-bg {
   font-size: 0.62rem;
   background-color: $color-lightyellow;
   padding: 9px 15px;
-  color: $color-dark-gray;
   font-weight: bold;
 }
 .arrow-bg {

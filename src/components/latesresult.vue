@@ -5,45 +5,55 @@
         <span class="color-midgray">LATEST</span>
         <span class="color-yellow "> RESULTS</span>
       </span>
-      <div class="mt-3 place-font">Cambridgeshire UK</div>
-      <div class="mt-3 mb-3 color-lightgray tourdate-fontsize">
+      <div class="mt-3 place-font work-sans">Cambridgeshire UK</div>
+      <div class="mt-3 mb-3 color-lightgray tourdate-fontsize work-sans">
         November 13, 2015 | 9:00 pm
       </div>
     </div>
 
     <div class="mb-4 score-bg">
       <div class="col-md-9 mx-auto d-flex justify-content-between">
-      <div class="my-auto bg-white ml-5 img-border"><img src="../assets/images/eng-logo.png" alt=""></div>
-     
-      <div class="d-flex p-3 font-oswald">
-        <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
-        <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
-        <span>
-        <!-- <span class="text-center">Scored</span>           -->
-          <div class="outline ">
-            <span class="vs-padding bg-orange color-midgray"><span class="num-font">4</span></span>
-            <span class="vs-position color-midgray "> vs</span>
-            <span class="vs-padding bg-lightblack color-yellow"><span class="num-font"> 2</span></span>
-          </div>  
-        </span>
-        <span class=" my-auto ml-4 country-fontsize ">AMSTERDAM</span>
+        <div class="my-auto bg-white ml-5 img-border">
+          <img src="../assets/images/eng-logo.png" alt="" />
+        </div>
+
+        <div class="d-flex p-3 font-oswald">
+          <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
+          <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
+          <span>
+            <span
+              class="text-center score-fontsize work-sans color-lightgray font-weight-bold"
+              >SCORE</span
+            >
+            <div class="outline ">
+              <span class="vs-padding bg-orange color-midgray"
+                ><span class="num-font">4</span></span
+              >
+              <span class="vs-position color-midgray "> vs</span>
+              <span class="vs-padding bg-lightblack color-yellow"
+                ><span class="num-font"> 2</span></span
+              >
+            </div>
+          </span>
+          <span class=" my-auto ml-4 country-fontsize ">AMSTERDAM</span>
+        </div>
+        <div class="my-auto bg-white mr-5 img-border">
+          <img src="../assets/images/ame-logo.png" alt="" />
+        </div>
       </div>
-      <div class="my-auto bg-white mr-5 img-border"><img src="../assets/images/ame-logo.png" alt=""></div>
-    </div>
     </div>
     <div class="col-md-9 mx-auto fieldset2 color-lightgray date-fontsize mb-5">
       <div class="col-md-8 mx-auto work-sans">
-      It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout. as opposed to using
-      'Content here, content.
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. as opposed to
+        using 'Content here, content.
       </div>
     </div>
     <span class="bg-white pl-pr text-more">
-      <span class="btn-border">
-      <span class="bg-orange btn-padding">MORE INFO</span>
+      <span class="btn-border work-sans">
+        <span class="bg-orange btn-padding">MORE INFO</span>
       </span>
     </span>
-   </div>
   </div>
 
   <!-- <div>
@@ -116,7 +126,7 @@
 .fieldset {
   text-align: center;
   position: relative;
-  z-index: 1; 
+  z-index: 1;
 }
 .head-font-size {
   font-size: 1.875rem;
@@ -126,7 +136,7 @@
   color: $color-mid-gray;
 }
 .tourdate-fontsize {
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 .vs-position {
   border-radius: 50%;
@@ -136,7 +146,7 @@
   text-align: center;
   left: 452px;
   padding: 0px 5px 1px 5px;
-  top: 32px;
+  top: 55px;
   font-size: 15px;
 }
 .score-font {
@@ -146,42 +156,42 @@
 .score-bg {
   background-color: $bg-lightgray;
 }
-.btn-padding{
+.btn-padding {
   padding: 10px 45px;
-    font-size: 0.625rem;
-    font-weight: bold;
+  font-size: 0.625rem;
+  font-weight: bold;
 }
-.btn-border{
-      border: 1px solid #fdbd00;
-    padding: 6px 2px 10px 2px;
+.btn-border {
+  border: 1px solid #fdbd00;
+  padding: 6px 2px 10px 2px;
 }
-.mt-6{
+.mt-6 {
   margin-top: 65px;
 }
-.pl-pr{
-      padding-left: 60px;
-    padding-right: 60px;
+.pl-pr {
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .outline {
   outline: 1px solid $color-yellow;
- padding: 3px 1px 16px;
+  padding: 3px 1px 16px;
 }
-.vs-padding
-{
+.vs-padding {
   padding: 19px 25px;
 }
-.num-font
-{
+.num-font {
   font-size: 1.875rem;
 }
-.country-fontsize{
+.country-fontsize {
   font-size: 1.5625rem;
 }
-.mb-6{
+.mb-6 {
   margin-bottom: 72px;
 }
-.img-border{
-  border:1px solid $color-social;
+.img-border {
+  border: 1px solid $color-social;
 }
-
+.score-fontsize {
+  font-size: 14px;
+}
 </style>

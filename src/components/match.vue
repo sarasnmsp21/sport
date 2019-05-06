@@ -9,7 +9,10 @@
           </div>
           <div></div>
         </div>
-        <div id="match" class="bg-lightgray timer-mt mb-4 p-2"></div>
+        <div
+          id="match"
+          class="bg-lightgray timer-mt mb-4 p-2 font-oswald"
+        ></div>
         <div>
           <span><img src="../assets/images/eng-logo.png" alt=""/></span>
           <span class="m-3 color-lightblack">ENGLAND</span>
@@ -17,10 +20,10 @@
           <span class="m-3 color-lightblack ">AMSTERDAM</span>
           <span><img src="../assets/images/ame-logo.png" alt=""/></span>
         </div>
-        <div class="mt-2 color-lightgray date-fontsize">
+        <div class="mt-2 color-lightgray date-fontsize work-sans">
           October 28, 2016 | 8:08 am
         </div>
-        <div class="color-lightgray tournament-fontsize ">
+        <div class="color-lightgray tournament-fontsize work-sans ">
           Cambridgeshire UK
         </div>
       </div>
@@ -31,7 +34,7 @@
           v-bind:key="match.index"
         >
           <div class="date-border-right">
-            <div class="p-2">{{ match.date }}</div>
+            <div class="p-2 color-lightgray">{{ match.date }}</div>
           </div>
           <div class="my-auto tournament-font mx-auto ">
             <span
@@ -63,7 +66,7 @@ export default {
     return {
       matchs: [
         {
-          date: "November 28, 2015",
+          date: "November 19, 2015",
           country1: "CAMBRIDGEHIRE",
           country2: "CHINA"
         },
@@ -78,7 +81,7 @@ export default {
           country2: "AMSTERDAM"
         },
         {
-          date: "November 28, 2015",
+          date: "November 13, 2015",
           country1: "CAMBRIDGEHIRE",
           country2: "CHINA"
         },
@@ -93,7 +96,7 @@ export default {
           country2: "AMSTERDAM"
         },
         {
-          date: "November 28, 2015",
+          date: "November 19, 2015",
           country1: "CAMBRIDGEHIRE",
           country2: "CHINA"
         }
@@ -137,7 +140,7 @@ var x = setInterval(function() {
 }
 .date-border-right {
   border-right: 1px solid;
-  font-size: 10px;
+  font-size: 0.625rem;
   padding: 4px 15px;
   border-color: $color-dark-gray;
 }
@@ -152,28 +155,28 @@ var x = setInterval(function() {
   background-color: $color-mid-gray;
 }
 .date-fontsize {
-  font-size: 14px;
+  font-size: 0.7rem;
 }
 .tournament-fontsize {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
 .tournament-font {
-  font-size: 13px;
+  font-size: 0.8125rem;
   font-weight: 600;
 }
 .vs-fontsize2 {
-  font-size: 10px;
+  font-size: 0.625rem;
 }
 .match-fontsize {
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 .match-fontsize::before {
   content: "";
   height: 1px;
   background: #ffc722;
   position: absolute;
-  left: 218px;
-  right: 19px;
+  left: 166px;
+  right: 18px;
   top: 17%;
 }
 .ml-mt {
@@ -190,7 +193,6 @@ var x = setInterval(function() {
   border-bottom: 3px solid;
 }
 .vs-fontsize1 {
-  font-size: 12px;
+  font-size: 0.75rem;
 }
-
 </style>

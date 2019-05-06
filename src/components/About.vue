@@ -30,12 +30,12 @@
           <span class="color-yellow font-oswald pr-3">FERNANDEZ</span>
         </div>
         <div class="text-white font-oswald">
-          <div>
-            <!-- <span>
-              <span class="bg-lightblack arrow-padding"><</span>
-              <span class="bg-orange arrow-padding">></span>
-            </span> -->
-            <div class="pb-4 about-fontsize float-right">TRAINERS</div>
+          <div class="d-flex justify-content-end mb-4">
+            <div class="my-auto">
+              <span class="bg-lightblack arrow-padding color-yellow"><</span>
+              <span class="bg-orange arrow-padding color-lightblack">></span>
+            </div>
+            <div class=" about-fontsize ml-3">TRAINERS</div>
           </div>
           <div>
             <img
@@ -79,7 +79,7 @@
   padding: 9px 30px;
 }
 .read-font {
-  font-size: 10px;
+  font-size: 0.625rem;
   color: $color-lightyellow;
   font-weight: bold;
 }
@@ -88,7 +88,7 @@
   padding: 6px 2px 10px 2px;
 }
 .about-fontsize {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 // .col2-bg::after {
 //  content: '';
@@ -108,10 +108,11 @@
   padding: 65px 0px 77px 0px;
 }
 .arrow-padding {
-  padding: 5px 3px;
+  padding: 0px 12px;
 }
 .para-lineheight {
   line-height: 20px;
+  font-size: 0.875rem;
 }
 .margin-top {
   margin-top: 105px;
@@ -121,6 +122,6 @@
   margin-left: 124px;
   vertical-align: bottom;
   margin-top: 201px;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 </style>

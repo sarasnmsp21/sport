@@ -1,72 +1,118 @@
 <template>
-  <div id="" class="col-md-10 mx-auto">
-    <div class="mb-3">OUR TEAM</div>
-    <div class="mb-3">
-      It is a long established fact that a reader will be distracted by the
-      readable content of a page when looking at its layout. as opposed to using
-      'Content here, content here', making it look like readable English.
+  <div>
+    <div id="" class="col-md-10 mx-auto ">
+      <div class="fontsize-30 mt-5 font-oswald">
+        <div class="mb-3">
+          <span class="color-lightblack">OUR</span
+          ><span class="color-yellow"> TEAM</span>
+        </div>
+      </div>
+      <div
+        class="work-sans col-md-8 mx-auto color-lightgray mb-3 team-para-fontsize"
+      >
+        It is a long established fact that a reader will be distracted by the
+        readable content of a page when looking at its layout. as opposed to
+        using 'Content making it look like readable English.
+        <div class="border-postion border-style mt-3"></div>
+        <span class="text-postion work-sans color-lightblack">READ MORE</span>
+      </div>
+      <div class="d-flex text-left mb-5 bg-white">
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+      </div>
+      <div class="d-flex text-left">
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div>
+            <div class="font-oswald color-lightblack mt-2 ml-3">
+              STEVEN WEBB
+            </div>
+            <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          </div>
+        </b-col>
+        <b-col>
+          <div>
+            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+          </div>
+          <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
+          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+        </b-col>
+      </div>
+      <div class="mt-5">
+        <span class="btn-border">
+          <span class="bg-orange btn-padding">MORE INFO</span>
+        </span>
+      </div>
     </div>
-    <div>READ MORE</div>
-    <div class="d-flex text-left mb-5">
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-    </div>
-    <div class="d-flex text-left">
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-      <b-col>
-        <div>
-          <img src="../assets/images/p2.jpg" alt="" class="w-100" />
-        </div>
-        <div>STEVEN WEBB</div>
-        <div>DEFENDER</div>
-      </b-col>
-    </div>
-    <div class="mt-3 mb-5">MORE INFO</div>
+    <!-- <div class="bg-image "></div> -->
   </div>
 </template>
+<style lang="scss">
+@import "../assets/scss/variables.scss";
+.team-para-fontsize {
+  font-size: 14px;
+}
+.border-style {
+  border: 1px solid $color-lightyellow;
+}
+.border-postion {
+  position: relative;
+}
+.text-postion {
+  position: relative;
+  top: -12px;
+  background: white;
+  padding: 0px 20px;
+  font-size: 10px;
+  font-weight: bold;
+}
+.back-banner-position {
+  background: url(/img/ground8.e20e4934.jpg) no-repeat;
+  height: 300px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+</style>

@@ -1,8 +1,41 @@
 <template>
   <div class="col-md-12">
     <div class="col-md-10 mx-auto text-left">
-      <div>SPORT.AK</div>
-      <div>
+      <div class="font-oswald video-fontsize d-flex justify-content-between">
+        <span>
+          <span><img src="../assets/images/football.png" alt=""/></span>
+
+          <span class="color-yellow">SPORT</span>
+          <span class="color-yellow">.AK</span>
+        </span>
+        <span>
+          <div class=" social-icon-font mt-2 d-flex">
+            <span class="m-3 ">
+              <font-awesome-icon :icon="['fab', 'facebook-f']" />
+            </span>
+            <span class="m-3 "
+              ><font-awesome-icon :icon="['fab', 'twitter']"
+            /></span>
+            <span class="m-3 "
+              ><font-awesome-icon :icon="['fab', 'google']"
+            /></span>
+            <span class="m-3 "
+              ><font-awesome-icon :icon="['fab', 'pinterest-p']"
+            /></span>
+            <span class="m-3 "
+              ><font-awesome-icon :icon="['fab', 'youtube']"
+            /></span>
+            <span class="m-3 "
+              ><font-awesome-icon :icon="['fab', 'instagram']"
+            /></span>
+            <span class="m-3 "
+              ><font-awesome-icon :icon="['fab', 'flickr']"
+            /></span>
+          </div>
+        </span>
+      </div>
+
+      <div class="work-sans mt-3 mb-3">
         It is a long established fact that a reader will be distracted by the
         readable content of a page when looking at its layout. as opposed to
         using 'Content here, content here', making it look like readable
@@ -32,7 +65,7 @@
         </div>
       </div>
       <div class="d-flex justify-content-between">
-        <div >
+        <div>
           <span class="mr-5">About</span>
           <span class="mr-5">Players</span>
           <span class="mr-5">Match</span>

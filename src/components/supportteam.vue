@@ -8,26 +8,29 @@
         </span>
 
         <div
-          class="m-3 text-white col-md-9 mx-auto para-fontsize mb-5 work-sans"
+          class="m-3 text-white col-md-9 mx-auto para-fontsize mb-4 work-sans"
         >
           The point of using Lorem Ipsum is that it has a more-or-less normal
           distribution of letters, as opposed to using 'Content here, content
           here', making it readable English. distribution of letters, as opposed
           to using 'Content here, content here', making it look like.
         </div>
-        <div class="mb-5">
-          <span class=" text-white top-border ">
-            <span class="mr-4">$5</span>
-            <span class="mr-4">$10</span>
-            <span class="mr-4">$25</span>
-            <span class="mr-4">$50</span>
-            <span class="mr-4">$75</span>
-            <span class="mr-4">$100</span>
+        <div class="mb-5 border-display">
+          <span class=" text-white top-border"></span>
+          <span class="text-white mx-auto para-fontsize d-flex  ">
+            <span class="m-2 mr-3">$ 5</span>
+            <span class="m-2 mr-3">$ 10</span>
+            <span class="m-2 mr-3">$ 25</span>
+            <span class="m-2 mr-3">$ 50</span>
+            <span class="m-2 mr-3">$ 75</span>
+            <span class="m-2 mr-3">$ 100</span>
           </span>
         </div>
-        <span class="btn-border">
-          <span class="bg-orange btn-padding">DONATE</span>
-        </span>
+        <div>
+          <span class="btn-border"
+            ><span class="bg-orange btn-padding  ">DONATE</span></span
+          >
+        </div>
       </div>
     </div>
   </div>
@@ -65,10 +68,10 @@ legend {
   margin-bottom: 70px;
 }
 .para-fontsize {
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 .support-fontsize {
-  font-size: 30px;
+  font-size: 1.875rem;
 }
 .top-border {
   border-top: 3px solid;
@@ -81,7 +84,7 @@ legend {
   content: "";
   width: 25%;
   position: absolute;
-  top: 70px;
+  top: 76px;
   bottom: 60px;
   left: 70px;
   border: solid #ffc722;
@@ -91,10 +94,13 @@ legend {
   content: "";
   width: 25%;
   position: absolute;
-  top: 70px;
+  top: 76px;
   bottom: 60px;
   right: 70px;
   border: solid #ffc722;
   border-width: 1px 1px 1px 0;
+}
+.border-display {
+  display: inline-grid;
 }
 </style>
