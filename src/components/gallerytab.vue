@@ -1,6 +1,6 @@
 <template>
   <div id="gallery">
-    <div class="d-flex col-md-9 mx-auto gallery-bg mt-4 pt-4">
+    <div class="d-flex col-md-9 mx-auto gallery-bg">
       <div class="my-auto gallery-font font-oswald ">GALLERY</div>
       <div
         class="my-auto para-ml text-left color-lightgray fontsize-lh work-sans"
@@ -9,8 +9,8 @@
         distribution of letters, as opposed to using 'Content here, content
       </div>
     </div>
-    <div class="bg-lightblack font-oswald">
-      <b-tabs content-class="mt-3">
+    <div class="bg-lightblack work-sans">
+      <b-tabs>
         <b-tab title="ALL" active><gallery></gallery></b-tab>
         <b-tab title="VOLLEYBALL"><gallery></gallery></b-tab>
         <b-tab title="HOCKEY"><gallery></gallery></b-tab>
@@ -48,7 +48,8 @@ export default {
 .nav-tabs {
   border: 0;
   margin-left: 162px;
-  font-size: 0.75rem;
+  font-size: 10px;
+  font-weight: bold;
 }
 .nav-tabs .nav-link {
   border: 0;
@@ -63,5 +64,9 @@ a {
 }
 a:hover {
   color: $color-lightyellow;
+}
+.nav-link {
+  display: block;
+  padding: 0.8rem 1.3rem;
 }
 </style>

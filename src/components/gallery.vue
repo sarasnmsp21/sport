@@ -1,70 +1,38 @@
 <template>
   <div>
+    <b-row class="p-0 m-0">
+      <b-col class="p-0">
+        <img fluid src="../assets/images/g17.jpg" alt="Image 1" width="100%" />
+        <!-- <span class="my-auto">
+          <span class="bg-lightblack arrow-padding color-yellow"><</span>
+          <span class="bg-orange arrow-padding color-lightblack">></span>
+        </span> -->
+      </b-col>
+      <b-col class="p-0"
+        ><img fluid src="../assets/images/g16.jpg" alt="Image 1" width="100%"
+      /></b-col>
+      <b-col class="p-0"
+        ><img fluid src="../assets/images/g19.jpeg" alt="Image 1" width="100%"
+      /></b-col>
+      <b-col class="p-0"
+        ><img fluid src="../assets/images/g17.jpg" alt="Image 1" width="100%"
+      /></b-col>
+    </b-row>
     <div>
-      <div>
-        <b-row class="p-0 m-0">
-          <b-col class="p-0"
-            ><img
-              fluid
-              src="../assets/images/g17.jpg"
-              alt="Image 1"
-              width="100%"
-          /></b-col>
-          <b-col class="p-0"
-            ><img
-              fluid
-              src="../assets/images/g16.jpg"
-              alt="Image 1"
-              width="100%"
-          /></b-col>
-          <b-col class="p-0"
-            ><img
-              fluid
-              src="../assets/images/g19.jpeg"
-              alt="Image 1"
-              width="100%"
-          /></b-col>
-          <b-col class="p-0"
-            ><img
-              fluid
-              src="../assets/images/g17.jpg"
-              alt="Image 1"
-              width="100%"
-          /></b-col>
-        </b-row>
-        <div>
-          <b-row class="p-0 m-0">
-            <b-col class="p-0"
-              ><img
-                fluid
-                src="../assets/images/g16.jpg"
-                alt="Image 1"
-                width="100%"
-            /></b-col>
-            <b-col class="p-0"
-              ><img
-                fluid
-                src="../assets/images/g11.jpg"
-                alt="Image 1"
-                width="100%"
-            /></b-col>
-            <b-col class="p-0"
-              ><img
-                fluid
-                src="../assets/images/g13.jpg"
-                alt="Image 1"
-                width="100%"
-            /></b-col>
-            <b-col class="p-0"
-              ><img
-                fluid
-                src="../assets/images/g14.jpg"
-                alt="Image 1"
-                width="100%"
-            /></b-col>
-          </b-row>
-        </div>
-      </div>
+      <b-row class="p-0 m-0">
+        <b-col class="p-0"
+          ><img fluid src="../assets/images/g16.jpg" alt="Image 1" width="100%"
+        /></b-col>
+        <b-col class="p-0"
+          ><img fluid src="../assets/images/g11.jpg" alt="Image 1" width="100%"
+        /></b-col>
+        <b-col class="p-0"
+          ><img fluid src="../assets/images/g13.jpg" alt="Image 1" width="100%"
+        /></b-col>
+        <b-col class="p-0"
+          ><img fluid src="../assets/images/g14.jpg" alt="Image 1" width="100%"
+        /></b-col>
+      </b-row>
     </div>
   </div>
 </template>

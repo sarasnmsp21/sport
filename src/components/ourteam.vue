@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <div id="" class="col-md-10 mx-auto ">
-      <div class="fontsize-30 mt-5 font-oswald">
+  <div id="ourteam" class="col-md-12 p-0 mt-6 mb-6">
+    <div class="col-md-9 mx-auto">
+      <div class="fontsize-30 font-oswald">
         <div class="mb-3">
           <span class="color-lightblack">OUR</span
           ><span class="color-yellow"> TEAM</span>
@@ -22,46 +22,58 @@
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
         <div>
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
         <div>
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
         <div>
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
       </div>
       <div class="d-flex justify-content-between text-left">
-        <div>
+        <div class="bg-white">
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
-        <div>
+        <div class="bg-white">
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
-        <div>
+        <div class="bg-white">
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
@@ -69,15 +81,19 @@
             <div class="font-oswald color-lightblack mt-2 ml-3">
               STEVEN WEBB
             </div>
-            <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+            <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+              DEFENDER
+            </div>
           </div>
         </div>
-        <div>
+        <div class="bg-white">
           <div>
             <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
-          <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
+          <div class="font-oswald color-lightgray team-para-fontsize ml-3">
+            DEFENDER
+          </div>
         </div>
       </div>
       <div class="mt-5">
@@ -86,7 +102,7 @@
         </span>
       </div>
     </div>
-    <!-- <div class="bg-image "></div> -->
+    <div class="back-banner-position "></div>
   </div>
 </template>
 <style lang="scss">
@@ -109,10 +125,11 @@
   font-weight: bold;
 }
 .back-banner-position {
-  background: url(/img/ground8.e20e4934.jpg) no-repeat;
-  height: 300px;
+  background: url(../assets/images/banner8.jpg) no-repeat;
+  height: 442px;
   width: 100%;
-  position: relative;
+  position: absolute;
   z-index: -1;
+  top: 489px;
 }
 </style>

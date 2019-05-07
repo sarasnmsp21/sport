@@ -1,8 +1,8 @@
 <template>
-  <div id="support" class="col-md-9 p-0 mx-auto ">
-    <div class="text-center  padding background mt-mb ">
+  <div id="support" class="col-md-9 p-0 mx-auto mt-6 mb-6 ">
+    <div class="text-center  padding background">
       <div class=" black-bg">
-        <span class="support-fontsize font-oswald600 ">
+        <span class="support-fontsize font-oswald">
           <span class=" color-orange">SUPPORT</span>
           <span class="text-white"> TEAM</span>
         </span>
@@ -44,7 +44,6 @@ legend {
   width: 40%;
 }
 .background {
-  margin: 90px 0 90px 0 !important;
   position: relative;
   text-align: center;
   background-size: cover;
@@ -77,7 +76,7 @@ legend {
   border-top: 3px solid;
 }
 .padding {
-  padding: 55px 0 50px 0;
+  padding: 55px 0 55px 0;
   position: relative;
 }
 .padding::before {

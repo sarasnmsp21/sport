@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="lastvideo" class="col-md-12 p-0">
     <div class="mt-5 mb-5 col-md-7 mx-auto">
       <div class="mb-3 font-oswald video-fontsize ">
         <span class="color-lightblack">LAST</span>
@@ -31,6 +31,6 @@
 }
 .video-banner {
   background: url(../assets/images/banner3.jpg);
-  height: 400px;
+  height: 500px;
 }
 </style>

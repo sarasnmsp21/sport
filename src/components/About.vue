@@ -1,52 +1,58 @@
 <template>
   <div id="team" class=" about-bg">
-    <div class="d-flex justify-content-between col-md-9 mx-auto p-0">
-      <div class="text-left relative  col1-bg col-md-6">
-        <div class="font-oswald mb-3 about-fontsize">
-          <span class="color-midgray">ABOUT</span>
-          <span class="color-white"> TEAM</span>
-        </div>
-        <div class="work-sans para-lineheight color-midgray">
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. making it
-            look like readable English.Ipsum is that it
-          </p>
-          <p>
-            The point of using Lorem Ipsum is that it has a more-or-less normal
-            distribution of letters, as opposed to using 'Content here, content
-            here', making it look like readable English.
-          </p>
-        </div>
-        <div class="mt-4">
-          <span class="read-border">
-            <span class="bg-lightblack read-padding read-font">READ MORE</span>
-          </span>
-        </div>
-      </div>
-      <div class="col2-padding col-md-6 text-right  ">
-        <div class="mb-4 font-oswald d-flex justify-content-end">
-          <span class="my-auto">
-            <span class="bg-lightblack arrow-padding color-yellow"><</span>
-            <span class="bg-orange arrow-padding color-lightblack">></span>
-          </span>
-          <span class=" about-fontsize text-white ml-4 my-auto">TRAINERS</span>
-        </div>
-        <div class="d-flex justify-content-end relative">
-          <div class="name-position about-fontsize">
-            <div class="text-white font-oswald pr-3">BERNARD</div>
-            <div class="color-yellow font-oswald pr-3">FERNANDEZ</div>
+    <b-row class="p-0 m-0">
+      <div class="d-flex justify-content-between col-md-9 mx-auto p-0">
+        <div class="text-left relative  col1-bg col-md-6">
+          <div class="font-oswald mb-3 about-fontsize">
+            <span class="color-midgray">ABOUT</span>
+            <span class="color-white"> TEAM</span>
           </div>
-          <div>
-            <img
-              src="../assets/images/player2.jpeg"
-              width="100%"
-              style=" outline: 1px solid orange;"
-            />
+          <div class="work-sans para-lineheight color-midgray">
+            <p>
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. making
+              it look like readable English.Ipsum is that it
+            </p>
+            <p>
+              The point of using Lorem Ipsum is that it has a more-or-less
+              normal distribution of letters, as opposed to using 'Content here,
+              content here', making it look like readable English.
+            </p>
+          </div>
+          <div class="mt-4">
+            <span class="read-border">
+              <span class="bg-lightblack read-padding read-font"
+                >READ MORE</span
+              >
+            </span>
           </div>
         </div>
+        <div class="col2-padding col-md-6 text-right  ">
+          <div class="mb-4 font-oswald d-flex justify-content-end">
+            <span class="my-auto">
+              <span class="bg-lightblack arrow-padding color-yellow"><</span>
+              <span class="bg-orange arrow-padding color-lightblack">></span>
+            </span>
+            <span class=" about-fontsize text-white ml-4 my-auto"
+              >TRAINERS</span
+            >
+          </div>
+          <div class="d-flex justify-content-end relative">
+            <div class="name-position about-fontsize">
+              <div class="text-white font-oswald pr-3">BERNARD</div>
+              <div class="color-yellow font-oswald pr-3">FERNANDEZ</div>
+            </div>
+            <div>
+              <img
+                src="../assets/images/player2.jpeg"
+                width="100%"
+                style=" outline: 1px solid orange;"
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </b-row>
   </div>
 </template>
 <style lang="scss">

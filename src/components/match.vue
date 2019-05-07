@@ -34,7 +34,7 @@
           v-bind:key="match.index"
         >
           <div class="date-border-right">
-            <div class="p-2 color-lightgray">{{ match.date }}</div>
+            <div class="p-2 color-lightgray work-sans">{{ match.date }}</div>
           </div>
           <div class="my-auto tournament-font mx-auto ">
             <span
@@ -140,7 +140,7 @@ var x = setInterval(function() {
 }
 .date-border-right {
   border-right: 1px solid;
-  font-size: 0.625rem;
+  font-size: 0.75rem;
   padding: 4px 15px;
   border-color: $color-dark-gray;
 }

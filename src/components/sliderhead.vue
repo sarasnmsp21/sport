@@ -26,7 +26,9 @@
           </div>
           <span class="text-border work-sans">
             <span class="fontstyle-bg color-midgray">READ MORE</span>
-            <span class="arrow-bg"> > </span>
+            <span class="arrow-bg">
+              <font-awesome-icon :icon="['fas', 'angle-right']" />
+            </span>
           </span>
         </div>
       </b-carousel-slide>
@@ -48,7 +50,9 @@
           </div>
           <span class="text-border work-sans">
             <span class="fontstyle-bg color-midgray">READ MORE</span>
-            <span class="arrow-bg"> > </span>
+            <span class="arrow-bg">
+              <font-awesome-icon :icon="['fas', 'angle-right']" />
+            </span>
           </span>
         </div>
       </b-carousel-slide>
@@ -70,7 +74,9 @@
           </div>
           <span class="text-border work-sans">
             <span class="fontstyle-bg color-midgray">READ MORE</span>
-            <span class="arrow-bg"> > </span>
+            <span class="arrow-bg">
+              <font-awesome-icon :icon="['fas', 'angle-right']" />
+            </span>
           </span>
         </div>
       </b-carousel-slide>
@@ -122,7 +128,7 @@ export default {
   font-weight: bold;
 }
 .text-border {
-  padding: 5px 1px 9px;
+  padding: 4px 1px 8px;
   border: 1px solid #ffc722;
 }
 .carousel-indicators li {

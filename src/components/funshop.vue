@@ -1,19 +1,21 @@
 <template>
-  <div class="col-md-12 mx-auto mt-4 mb-5 mt-5 p-0 relative">
+  <div class="col-md-12 mx-auto mb-5 p-0 relative">
     <div class="font-oswald heading-fontsize mb-4">
       <span class="color-lightblack">FUN</span
       ><span class="color-yellow"> SHOP</span>
     </div>
-    <div class="col-md-8 mx-auto color-lightgray fun-parafontsize mb-4 ">
+    <div class="col-md-8 mx-auto color-lightgray fun-parafontsize">
       It is a long established fact that a reader will be distracted by the
       readable content of a page when looking at its layout. as opposed to using
       'Content here, content here', making it look like readable English.
     </div>
-    <span class="bg-lightblack work-sans save-font mb-5">
-      <span class="color-white">SAVE</span>
-      <span class="color-yellow"> 33% OFF</span>
-      <span class="color-white"> for all new orders</span>
-    </span>
+    <div class="mb-5">
+      <span class="bg-lightblack work-sans save-font">
+        <span class="color-white">SAVE</span>
+        <span class="color-yellow"> 33% OFF</span>
+        <span class="color-white"> for all new orders</span>
+      </span>
+    </div>
     <div class="mt-5">
       <md-card>
         <md-card-media>

@@ -1,71 +1,64 @@
 <template>
-  <div id="result" class="mb-6">
-    <div class="text-center col-md-9 mx-auto mt-6 mb-2 fieldset">
-      <span class="text-result bg-white pl-pr head-font-size font-oswald">
-        <span class="color-midgray">LATEST</span>
-        <span class="color-yellow "> RESULTS</span>
-      </span>
-      <div class="mt-3 place-font work-sans">Cambridgeshire UK</div>
-      <div class="mt-3 mb-3 color-lightgray tourdate-fontsize work-sans">
-        November 13, 2015 | 9:00 pm
-      </div>
-    </div>
-
-    <div class="mb-4 score-bg">
-      <div class="col-md-9 mx-auto d-flex justify-content-between">
-        <div class="my-auto bg-white ml-5 img-border">
-          <img src="../assets/images/eng-logo.png" alt="" />
+  
+    <div id="result" class="mt-6 mb-6">
+      <div class="text-center col-md-9 mx-auto mb-2 fieldset">
+        <span class="text-result bg-white pl-pr head-font-size font-oswald">
+          <span class="color-midgray">LATEST</span>
+          <span class="color-yellow "> RESULTS</span>
+        </span>
+        <div class="mt-3 place-font work-sans">Cambridgeshire UK</div>
+        <div class="mt-3 mb-2 color-lightgray tourdate-fontsize work-sans">
+          November 13, 2015 | 9:00 pm
         </div>
+      </div>
 
-        <div class="d-flex p-3 font-oswald">
-          <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
-          <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
-          <span>
-            <span
-              class="text-center score-fontsize work-sans color-lightgray font-weight-bold"
-              >SCORE</span
-            >
-            <div class="outline ">
-              <span class="vs-padding bg-orange color-midgray"
-                ><span class="num-font">4</span></span
+      <div class="mb-4 score-bg">
+        <div class="col-md-9 mx-auto d-flex justify-content-between">
+          <div class="my-auto bg-white ml-5 img-border">
+            <img src="../assets/images/eng-logo.png" alt="" />
+          </div>
+
+          <div class="d-flex p-3 font-oswald">
+            <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
+            <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
+            <span>
+              <span
+                class="text-center score-fontsize work-sans color-lightgray font-weight-bold"
+                >SCORE</span
               >
-              <span class="vs-position color-midgray "> vs</span>
-              <span class="vs-padding bg-lightblack color-yellow"
-                ><span class="num-font"> 2</span></span
-              >
-            </div>
-          </span>
-          <span class=" my-auto ml-4 country-fontsize ">AMSTERDAM</span>
-        </div>
-        <div class="my-auto bg-white mr-5 img-border">
-          <img src="../assets/images/ame-logo.png" alt="" />
+              <div class="outline ">
+                <span class="vs-padding bg-orange color-midgray"
+                  ><span class="num-font">4</span></span
+                >
+                <span class="vs-position color-midgray "> vs</span>
+                <span class="vs-padding bg-lightblack color-yellow"
+                  ><span class="num-font"> 2</span></span
+                >
+              </div>
+            </span>
+            <span class=" my-auto ml-4 country-fontsize ">AMSTERDAM</span>
+          </div>
+          <div class="my-auto bg-white mr-5 img-border">
+            <img src="../assets/images/ame-logo.png" alt="" />
+          </div>
         </div>
       </div>
-    </div>
-    <div class="col-md-9 mx-auto fieldset2 color-lightgray date-fontsize mb-5">
-      <div class="col-md-8 mx-auto work-sans">
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. as opposed to
-        using 'Content here, content.
+      <div
+        class="col-md-9 mx-auto fieldset2 color-lightgray  mb-4"
+      >
+        <div class="col-md-8 mx-auto work-sans place-para">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. as opposed to
+          using 'Content here, content.
+        </div>
       </div>
-    </div>
-    <span class="bg-white pl-pr text-more">
-      <span class="btn-border work-sans">
-        <span class="bg-orange btn-padding">MORE INFO</span>
+      <span class="bg-white pl-pr text-more">
+        <span class="btn-border work-sans">
+          <span class="bg-orange btn-padding">MORE INFO</span>
+        </span>
       </span>
-    </span>
-  </div>
-
-  <!-- <div>
-    <form>
-      <fieldset>
-        <legend>Personalia:</legend>
-        Name: <input type="text" /><br />
-        Email: <input type="text" /><br />
-        Date of birth: <input type="text" />
-      </fieldset>
-    </form>
-  </div> -->
+    </div>
+  </b-row>
 </template>
 <style lang="scss">
 @import "../assets/scss/variables.scss";
@@ -107,7 +100,7 @@
   left: 0px;
   right: 0;
   top: 0px;
-  bottom: -60px;
+  bottom: -42px;
 }
 .fieldset2 {
   text-align: center;
@@ -132,7 +125,7 @@
   font-size: 1.875rem;
 }
 .place-font {
-  font-size: 1rem;
+  font-size: 1.05rem;
   color: $color-mid-gray;
 }
 .tourdate-fontsize {
@@ -186,12 +179,19 @@
   font-size: 1.5625rem;
 }
 .mb-6 {
-  margin-bottom: 72px;
+  margin-bottom: 70px;
+}
+.mt-6{
+  margin-top: 70px;
 }
 .img-border {
   border: 1px solid $color-social;
 }
 .score-fontsize {
   font-size: 14px;
+}
+.place-para{
+  font-size: 13px;
+
 }
 </style>
