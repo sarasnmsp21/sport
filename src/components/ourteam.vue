@@ -16,54 +16,54 @@
         <div class="border-postion border-style mt-3"></div>
         <span class="text-postion work-sans color-lightblack">READ MORE</span>
       </div>
-      <div class="d-flex text-left mb-5 bg-white">
-        <b-col>
+      <div class="d-flex justify-content-between text-left mb-5 bg-white">
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
-        <b-col>
+        </div>
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
-        <b-col>
+        </div>
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
-        <b-col>
+        </div>
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
+        </div>
       </div>
-      <div class="d-flex text-left">
-        <b-col>
+      <div class="d-flex justify-content-between text-left">
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
-        <b-col>
+        </div>
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
-        <b-col>
+        </div>
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div>
             <div class="font-oswald color-lightblack mt-2 ml-3">
@@ -71,14 +71,14 @@
             </div>
             <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
           </div>
-        </b-col>
-        <b-col>
+        </div>
+        <div>
           <div>
-            <img src="../assets/images/p2.jpg" alt="" class="w-100" />
+            <img src="../assets/images/player3.jpg" alt="" />
           </div>
           <div class="font-oswald color-lightblack mt-2 ml-3">STEVEN WEBB</div>
           <div class="font-oswald color-lightgray ml-3">DEFENDER</div>
-        </b-col>
+        </div>
       </div>
       <div class="mt-5">
         <span class="btn-border">

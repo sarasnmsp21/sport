@@ -24,24 +24,23 @@
           </span>
         </div>
       </div>
-      <div class="text-right col2-bg col-md-6 ">
-        <div class="float-text">
-          <span class="text-white font-oswald pr-3">BERNARD</span><br />
-          <span class="color-yellow font-oswald pr-3">FERNANDEZ</span>
+      <div class="col2-padding col-md-6 text-right  ">
+        <div class="mb-4 font-oswald d-flex justify-content-end">
+          <span class="my-auto">
+            <span class="bg-lightblack arrow-padding color-yellow"><</span>
+            <span class="bg-orange arrow-padding color-lightblack">></span>
+          </span>
+          <span class=" about-fontsize text-white ml-4 my-auto">TRAINERS</span>
         </div>
-        <div class="text-white font-oswald">
-          <div class="d-flex justify-content-end mb-4">
-            <div class="my-auto">
-              <span class="bg-lightblack arrow-padding color-yellow"><</span>
-              <span class="bg-orange arrow-padding color-lightblack">></span>
-            </div>
-            <div class=" about-fontsize ml-3">TRAINERS</div>
+        <div class="d-flex justify-content-end relative">
+          <div class="name-position about-fontsize">
+            <div class="text-white font-oswald pr-3">BERNARD</div>
+            <div class="color-yellow font-oswald pr-3">FERNANDEZ</div>
           </div>
           <div>
             <img
-              src="../assets/images/sportman.jpg"
-              width="48%"
-              height="200px"
+              src="../assets/images/player2.jpeg"
+              width="100%"
               style=" outline: 1px solid orange;"
             />
           </div>
@@ -103,8 +102,7 @@
 //     display: block;
 //     background: #363533;
 // }
-.col2-bg {
-  z-index: 1;
+.col2-padding {
   padding: 65px 0px 77px 0px;
 }
 .arrow-padding {
@@ -123,5 +121,11 @@
   vertical-align: bottom;
   margin-top: 201px;
   font-size: 1.5rem;
+}
+.name-position {
+  position: absolute;
+  left: 138px;
+  bottom: 73px;
+  line-height: 35px;
 }
 </style>

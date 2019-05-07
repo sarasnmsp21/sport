@@ -24,6 +24,7 @@
 <style lang="scss">
 .video-fontsize {
   font-size: 30px;
+  margin-top: 100px;
 }
 .video-parafontsize {
   font-size: 14px;
