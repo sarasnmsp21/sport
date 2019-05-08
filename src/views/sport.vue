@@ -9,7 +9,7 @@
     <match></match>
     <news></news>
     <gallerytab></gallerytab>
-    <!-- <awards></awards> -->
+    <awards></awards>
     <ourteam></ourteam>
     <funshop></funshop>
     <lastvideo></lastvideo>
@@ -29,7 +29,7 @@ import supporteam from "@/components/supportteam.vue";
 import match from "@/components/match.vue";
 import news from "@/components/news.vue";
 import gallerytab from "@/components/gallerytab.vue";
-// import awards from "@/components/awards.vue";
+import awards from "@/components/awards.vue";
 import ourteam from "@/components/ourteam.vue";
 import funshop from "@/components/funshop.vue";
 import lastvideo from "@/components/lastvideo.vue";
@@ -46,7 +46,7 @@ export default {
     match,
     news,
     gallerytab,
-    // awards,
+    awards,
     ourteam,
     funshop,
     lastvideo,

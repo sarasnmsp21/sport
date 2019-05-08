@@ -110,7 +110,10 @@
                   placeholder="Enter your email"
                 />
               </span>
-              <button class="ml-2 bg-orange work-sans">SUBSCRIBE</button>
+              <!-- <button class="ml-2 bg-orange work-sans">SUBSCRIBE</button> -->
+               <span class="button-padding ml-2"
+            ><span class="bg-orange btn-padding">SUBSCRIBE</span></span
+          >
             </div>
           </div>
         </div>
@@ -160,11 +163,19 @@
       linear,
       left top,
       left bottom,
-      from(rgba(58, 55, 55, 0.94))
+      from(rgba(76, 75, 74, 0.95))
     ),
     url(/img/banner3.85ef0ed7.jpg);
 }
 .read-font2 {
   font-size: 10px;
+}
+// .form-control{
+//   background-color:white;
+//   transform:skewX(-33deg);
+// }
+.button-padding{
+    border: 1px solid #fdbd00;
+    padding: 4px 2px 4px 2px;
 }
 </style>
