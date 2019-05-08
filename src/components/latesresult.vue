@@ -13,19 +13,20 @@
       </div>
 
       <div class="mb-4 score-bg">
+          <span
+                class="text-center score-fontsize work-sans color-lightgray font-weight-bold mr-4"
+                >SCORE</span>
         <div class="col-md-9 mx-auto d-flex justify-content-between">
+         
           <div class="my-auto bg-white ml-5 img-border">
             <img src="../assets/images/eng-logo.png" alt="" />
           </div>
 
-          <div class="d-flex p-3 font-oswald">
+          <div class="d-flex font-oswald pb-3">
             <span class="my-auto mr-4 country-fontsize">ENGLAND</span>
             <!-- <div class="mb-3 score-font font-weight-bold">SCORE</div> -->
-            <span>
-              <span
-                class="text-center score-fontsize work-sans color-lightgray font-weight-bold"
-                >SCORE</span
-              >
+            <span class="my-auto">
+             
               <div class="outline ">
                 <span class="vs-padding bg-orange color-midgray"
                   ><span class="num-font">4</span></span
@@ -137,9 +138,11 @@
   position: absolute;
   z-index: 1;
   text-align: center;
-  left: 452px;
+      top: 14px;
+    margin-left: -11px;
+ 
   padding: 0px 5px 1px 5px;
-  top: 55px;
+ 
   font-size: 15px;
 }
 .score-font {
@@ -188,7 +191,7 @@
   border: 1px solid $color-social;
 }
 .score-fontsize {
-  font-size: 14px;
+  font-size: 12px;
 }
 .place-para{
   font-size: 13px;

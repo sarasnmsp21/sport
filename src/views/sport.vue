@@ -1,5 +1,6 @@
 <template>
   <div>
+   
     <Nav-head></Nav-head>
     <swiperhead></swiperhead>
     <latesresult></latesresult>
@@ -14,6 +15,7 @@
     <lastvideo></lastvideo>
     <contact></contact>
     <bottom></bottom>
+   
   </div>
 </template>
 
@@ -53,4 +55,9 @@ export default {
   }
 };
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+.container{
+  padding: 0;
+  margin:0;
+}
+</style>

@@ -1,6 +1,6 @@
 <template>
-  <div id="lastvideo" class="col-md-12 p-0">
-    <div class="mt-5 mb-5 col-md-7 mx-auto">
+  <div id="lastvideo" class="col-md-12 p-0 relative">
+    <div class=" col-md-7 mx-auto mb-6">
       <div class="mb-3 font-oswald video-fontsize ">
         <span class="color-lightblack">LAST</span>
         <span class="color-yellow">VIDEO</span>
@@ -13,64 +13,135 @@
       <iframe
         src="http://www.youtube.com/embed/W7qWa52k-nE"
         width="100%"
-        height="315"
+        height="360"
         frameborder="0"
         allowfullscreen
       ></iframe>
     </div>
-     <md-card>
-    <md-card-media>
-      <!-- swiper -->
-      <swiper :options="swiperOption">
-        <swiper-slide>
-          <div>
-          <span><img src="../assets/images/activeden.png" alt=""></span>
-          <span>activeden</span>
-          </div>
+    <md-card>
+      <md-card-media>
+        <!-- swiper -->
+        <swiper class="col-md-9 mb-6" :options="swiperOption">
+          <swiper-slide>
+            <div class="mb-6">
+              <span
+                ><img src="../assets/images/audioj.png" alt="" width="15%"
+              /></span>
+              <span class="work-sans ml-2 swiper-fontsize text-white"
+                >activeden</span
+              >
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div>
+              <span
+                ><img src="../assets/images/audioj.png" alt="" width="15%"
+              /></span>
+              <span class="work-sans ml-2 swiper-fontsize text-white"
+                >activeden</span
+              >
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div>
+              <span
+                ><img src="../assets/images/audioj.png" alt="" width="15%"
+              /></span>
+              <span class="work-sans ml-2 swiper-fontsize text-white"
+                >activeden</span
+              >
+            </div></swiper-slide
+          >
+          <swiper-slide>
+            <div>
+              <span
+                ><img src="../assets/images/audioj.png" alt="" width="15%"
+              /></span>
+              <span class="work-sans ml-2 swiper-fontsize text-white"
+                >activeden</span
+              >
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div>
+              <span
+                ><img src="../assets/images/audioj.png" alt="" width="15%"
+              /></span>
+              <span class="work-sans ml-2 swiper-fontsize text-white"
+                >activeden</span
+              >
+            </div>
+          </swiper-slide>
+          <swiper-slide>
+            <div>
+              <span
+                ><img src="../assets/images/audioj.png" alt="" width="15%"
+              /></span>
+              <span class="work-sans ml-2 swiper-fontsize text-white"
+                >activeden</span
+              >
+            </div>
+          </swiper-slide>
 
-        </swiper-slide>
-        <swiper-slide>
-          <span></span>
-          <span></span>
-        </swiper-slide>
-        <swiper-slide>Slide 3</swiper-slide>
-        <swiper-slide>Slide 4</swiper-slide>
-        <swiper-slide>Slide 4</swiper-slide>
-         <swiper-slide>Slide 4</swiper-slide>
-         
-        <div class="swiper-pagination" slot="pagination"></div>
-      </swiper>
-    </md-card-media>
-  </md-card>
+          <div class="swiper-pagination" slot="pagination"></div>
+        </swiper>
+      </md-card-media>
+    </md-card>
     <div class="video-banner"></div>
   </div>
 </template>
 <script>
-  export default {
-    data() {
-      return {
-        swiperOption: {
-          slidesPerView: 4,
-          spaceBetween: 30,
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true
-          }
+export default {
+  data() {
+    return {
+      swiperOption: {
+        slidesPerView: 4,
+        spaceBetween: 38,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true
         }
       }
-    }
+    };
   }
+};
 </script>
 <style lang="scss">
+@import "../assets/scss/variables.scss";
 .video-fontsize {
   font-size: 30px;
-  margin-top: 100px;
 }
 .video-parafontsize {
   font-size: 14px;
 }
 .video-banner {
-  background: url(../assets/images/banner3.jpg);
+  background: lightslategray;
   height: 500px;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+  top: 50%;
+}
+.swiper-fontsize {
+  font-size: 28px;
+}
+
+.swiper-container-horizontal
+  > .swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  margin: 0 5px;
+}
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: transparent;
+  border: 1px solid $color-white;
+}
+.swiper-pagination-bullet-active {
+  background: transparent;
+  border: 1px solid $color-yellow;
+}
+.swiper-pagination:focus {
+  outline: none;
 }
 </style>

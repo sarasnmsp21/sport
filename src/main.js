@@ -34,7 +34,8 @@ import {
   faUser,
   faStar,
   faStarHalfAlt,
-  faAngleRight
+  faAngleRight,
+  faAngleLeft
 } from "@fortawesome/free-solid-svg-icons"; //fas fa
 
 import {
@@ -71,7 +72,8 @@ library.add(
   faUser,
   faStar,
   faStarHalfAlt,
-  faAngleRight
+  faAngleRight,
+  faAngleLeft
 ); //fas
 
 library.add(faCommentAlt, faClock); //far

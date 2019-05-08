@@ -2,23 +2,20 @@
   <div id="next-match" class="match-bg">
     <div class="col-md-9 d-flex mx-auto div-padding font-oswald">
       <div class="col-md-6 bg-light p-0 border-b">
-        <div class="d-flex">
-          <div class="ml-mt match-fontsize">
-            <span class="color-lightblack">NEXT</span>
-            <span class="color-orange"> MATCH</span>
-          </div>
-          <div></div>
+        <div class="ml-mt match-fontsize d-flex">
+          <span class="color-lightblack">NEXT</span>
+          <span class="color-orange"> MATCH</span>
         </div>
         <div
           id="match"
           class="bg-lightgray timer-mt mb-4 p-2 font-oswald"
         ></div>
-        <div>
-          <span><img src="../assets/images/eng-logo.png" alt=""/></span>
-          <span class="m-3 color-lightblack">ENGLAND</span>
-          <span class="bg-orange vs-fontsize1 p-1">VS</span>
-          <span class="m-3 color-lightblack ">AMSTERDAM</span>
-          <span><img src="../assets/images/ame-logo.png" alt=""/></span>
+        <div class="vs-fontsize1">
+          <img src="../assets/images/eng-logo.png" alt="" />
+          <span class="mr-3 ml-3 color-lightblack">ENGLAND</span>
+          <span class="bg-orange p-1">VS</span>
+          <span class="mr-3 ml-3 color-lightblack ">AMSTERDAM</span>
+          <img src="../assets/images/ame-logo.png" alt="" />
         </div>
         <div class="mt-2 color-lightgray date-fontsize work-sans">
           October 28, 2016 | 8:08 am
@@ -36,7 +33,7 @@
           <div class="date-border-right">
             <div class="p-2 color-lightgray work-sans">{{ match.date }}</div>
           </div>
-          <div class="my-auto tournament-font mx-auto ">
+          <div class="my-auto  mx-auto tournament-font d-flex">
             <span
               ><img
                 src="../assets/images/eng-logo.png"
@@ -45,8 +42,8 @@
                 alt=""
             /></span>
             <span class="mr-3">{{ match.country1 }}</span>
-            <span class="mr-3 color-orange vs-fontsize2">VS</span>
-            <span>{{ match.country2 }}</span>
+            <div class="my-auto color-orange vs-fontsize2">VS</div>
+            <span class="ml-3">{{ match.country2 }}</span>
             <span
               ><img
                 src="../assets/images/ame-logo.png"
@@ -140,7 +137,7 @@ var x = setInterval(function() {
 }
 .date-border-right {
   border-right: 1px solid;
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   padding: 4px 15px;
   border-color: $color-dark-gray;
 }
@@ -165,7 +162,7 @@ var x = setInterval(function() {
   font-weight: 600;
 }
 .vs-fontsize2 {
-  font-size: 0.625rem;
+  font-size: 0.62rem;
 }
 .match-fontsize {
   font-size: 1.5625rem;
@@ -193,6 +190,6 @@ var x = setInterval(function() {
   border-bottom: 3px solid;
 }
 .vs-fontsize1 {
-  font-size: 0.75rem;
+  font-size: 15px;
 }
 </style>
