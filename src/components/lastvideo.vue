@@ -18,9 +18,49 @@
         allowfullscreen
       ></iframe>
     </div>
+     <md-card>
+    <md-card-media>
+      <!-- swiper -->
+      <swiper :options="swiperOption">
+        <swiper-slide>
+          <div>
+          <span><img src="../assets/images/activeden.png" alt=""></span>
+          <span>activeden</span>
+          </div>
+
+        </swiper-slide>
+        <swiper-slide>
+          <span></span>
+          <span></span>
+        </swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+         <swiper-slide>Slide 4</swiper-slide>
+         
+        <div class="swiper-pagination" slot="pagination"></div>
+      </swiper>
+    </md-card-media>
+  </md-card>
     <div class="video-banner"></div>
   </div>
 </template>
+<script>
+  export default {
+    data() {
+      return {
+        swiperOption: {
+          slidesPerView: 4,
+          spaceBetween: 30,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+          }
+        }
+      }
+    }
+  }
+</script>
 <style lang="scss">
 .video-fontsize {
   font-size: 30px;
