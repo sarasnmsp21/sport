@@ -111,9 +111,9 @@
                 />
               </span>
               <!-- <button class="ml-2 bg-orange work-sans">SUBSCRIBE</button> -->
-               <span class="button-padding ml-2"
-            ><span class="bg-orange btn-padding">SUBSCRIBE</span></span
-          >
+              <span class="button-padding ml-2"
+                ><span class="bg-orange sub-btn-padding">SUBSCRIBE</span></span
+              >
             </div>
           </div>
         </div>
@@ -137,8 +137,8 @@
 <style lang="scss">
 .footer-bg {
   background: linear-gradient(
-      to bottom rgba(82, 78, 78, 0.94),
-      rgba(82, 78, 78, 0.94)
+      to bottom rgba(76, 75, 74, 0.95),
+      rgba(76, 75, 74, 0.95)
     ),
     url("../assets/images/banner3.jpg");
 }
@@ -174,8 +174,16 @@
 //   background-color:white;
 //   transform:skewX(-33deg);
 // }
-.button-padding{
-    border: 1px solid #fdbd00;
-    padding: 4px 2px 4px 2px;
+.button-padding {
+  border: 1px solid #fdbd00;
+  padding: 4px 2px 4px 2px;
 }
+.sub-btn-padding {
+  padding: 11px 46px 12px;
+  font-size: 0.625rem;
+  font-weight: bold;
+}
+// .form-control {
+//   border: 1px solid #65686b;
+// }
 </style>

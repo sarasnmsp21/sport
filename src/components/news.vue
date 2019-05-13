@@ -14,7 +14,7 @@
       </div>
       <div class="d-flex">
         <div>
-          <img src="../assets/images/player.jpeg" width="100%" height="100%" />
+          <img src="../assets/images/player3.jpg" height="100%"/>
         </div>
         <div class="bg-lightgray p-3 work-sans tool-tip">
           <div class="news-date-font pt-1 pb-1 color-lightgray">
@@ -31,7 +31,7 @@
           <div class="font-padding mt-4 mb-2">READ MORE ></div>
         </div>
         <div>
-          <img src="../assets/images/player.jpeg" width="100%" height="100%" />
+          <img src="../assets/images/player3.jpg" height="100%"/>
         </div>
         <div class="bg-lightgray p-3 work-sans tool-tip2">
           <div class="news-date-font pt-1 pb-1 color-lightgray">
@@ -63,7 +63,7 @@
 }
 .bg-image {
   background: url("../assets/images/ground8.jpg") no-repeat;
-  height: 261px;
+  height: 270px;
   width: 100%;
   position: absolute;
   z-index: -1;

@@ -29,8 +29,8 @@
              
               <div class="outline ">
                 <span class="vs-padding bg-orange color-midgray"
-                  ><span class="num-font">4</span></span
-                >
+                  ><span class="num-font">4</span>
+                </span>
                 <span class="vs-position color-midgray "> vs</span>
                 <span class="vs-padding bg-lightblack color-yellow"
                   ><span class="num-font"> 2</span></span

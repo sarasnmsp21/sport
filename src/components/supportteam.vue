@@ -18,12 +18,12 @@
         <div class="mb-5 border-display">
           <span class=" text-white top-border"></span>
           <span class="text-white mx-auto para-fontsize d-flex  ">
-            <span class="m-2 mr-3">$ 5</span>
-            <span class="m-2 mr-3">$ 10</span>
-            <span class="m-2 mr-3">$ 25</span>
-            <span class="m-2 mr-3">$ 50</span>
-            <span class="m-2 mr-3">$ 75</span>
-            <span class="m-2 mr-3">$ 100</span>
+            <li class="m-2 mr-4">$ 5</li>
+            <li class="m-2 mr-4">$ 10</li>
+            <li class="m-2 mr-4">$ 25</li>
+            <li class="m-2 mr-4">$ 50</li>
+            <li class="m-2 mr-4">$ 75</li>
+            <li class="m-2 mr-4">$ 100</li>
           </span>
         </div>
         <div>
@@ -47,8 +47,11 @@ legend {
   position: relative;
   text-align: center;
   background-size: cover;
-  background: linear-gradient(to bottom rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8)),
-    url("../assets/images/banner3.jpg");
+  background: linear-gradient(
+      to bottom rgba(82, 78, 78, 0.94),
+      rgba(82, 78, 78, 0.94)
+    ),
+    url("../assets/images/banner2.jpg");
   z-index: -1;
 }
 .black-bg::after {
@@ -67,7 +70,11 @@ legend {
   margin-bottom: 70px;
 }
 .para-fontsize {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
+}
+.para-fontsize > li {
+  list-style-type: none;
+  cursor: pointer;
 }
 .support-fontsize {
   font-size: 1.875rem;
@@ -76,15 +83,15 @@ legend {
   border-top: 3px solid;
 }
 .padding {
-  padding: 55px 0 55px 0;
+  padding: 40px 0;
   position: relative;
 }
 .padding::before {
   content: "";
   width: 25%;
   position: absolute;
-  top: 76px;
-  bottom: 60px;
+  top: 60px;
+  bottom: 50px;
   left: 70px;
   border: solid #ffc722;
   border-width: 1px 0 1px 1px;
@@ -93,8 +100,8 @@ legend {
   content: "";
   width: 25%;
   position: absolute;
-  top: 76px;
-  bottom: 60px;
+  top: 60px;
+  bottom: 50px;
   right: 70px;
   border: solid #ffc722;
   border-width: 1px 1px 1px 0;

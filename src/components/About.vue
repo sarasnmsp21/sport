@@ -30,8 +30,11 @@
         <div class="col2-padding col-md-6 text-right  ">
           <div class="mb-4 font-oswald d-flex justify-content-end">
             <span class="my-auto">
-              <span class="bg-lightblack arrow-padding color-yellow"><</span>
-              <span class="bg-orange arrow-padding color-lightblack">></span>
+              <span class="bg-lightblack arrow-padding color-yellow"> 
+                <font-awesome-icon :icon="['fas', 'angle-left']" /></span>
+              <span class="bg-orange arrow-padding color-lightblack">
+                <font-awesome-icon :icon="['fas', 'angle-right']" />
+              </span>
             </span>
             <span class=" about-fontsize text-white ml-4 my-auto"
               >TRAINERS</span
@@ -58,7 +61,11 @@
 <style lang="scss">
 @import "../assets/scss/_variables.scss";
 .about-bg {
-  background: url(..//assets/images/banner2.jpg);
+  background: linear-gradient(
+      to bottom rgba(82, 78, 78, 0.94),
+      rgba(82, 78, 78, 0.94)
+    ),
+    url("../assets/images/banner2.jpg");
   widows: 100%;
 }
 // .col1-bg {

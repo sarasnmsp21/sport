@@ -196,7 +196,7 @@
                   <div
                     class="font-oswald color-lightblack  bg-orange buy-fontsize  flex-fill p-2"
                   >
-                   <span class="my-auto"> BUY</span>
+                    <span>BUY</span>
                   </div>
                 </div>
               </div></swiper-slide
