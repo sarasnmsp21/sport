@@ -1,57 +1,61 @@
 <template>
   <div id="news" class="bg-position mt-6">
-    <div class="col-md-9 mx-auto mb-6">
-      <div class="heading-fontsize font-oswald">
-        <span class="color-lightblack">OUR</span>
-        <span class="color-orange"> NEWS</span>
-      </div>
-      <div
-        class="mt-4 mb-4 col-md-8 mx-auto color-lightgray head-para-fontsize work-sans"
-      >
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout. as opposed to
-        using as opposed to using.
-      </div>
-      <div class="d-flex">
-        <div>
-          <img src="../assets/images/player3.jpg" height="100%"/>
+    <div class="row p-0 m-0">
+      <div class="col-md-9 mx-auto mb-6">
+        <div class="heading-fontsize font-oswald">
+          <span class="color-lightblack">OUR</span>
+          <span class="color-orange"> NEWS</span>
         </div>
-        <div class="bg-lightgray p-3 work-sans tool-tip">
-          <div class="news-date-font pt-1 pb-1 color-lightgray">
-            Nov 19, 2015
+        <div class="row p-0 m-0">
+          <div class="col-md-8 mx-auto mt-4 mb-4">
+            <div class="color-lightgray head-para-fontsize work-sans">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. as
+              opposed to using as opposed to using.
+            </div>
           </div>
-          <div class="news-head-font font-weight-bold mb-4">
-            PELLENTESQUE LAOREET UENA TURPIS
-          </div>
-          <div class="color-lightgray news-fontsize">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. as
-            opposed to using
-          </div>
-          <div class="font-padding mt-4 mb-2">READ MORE ></div>
         </div>
-        <div>
-          <img src="../assets/images/player3.jpg" height="100%"/>
+        <div class="row p-0 m-0">
+          <div class="col-md-9 d-flex">
+            <div class="col-md-4 img-responsive p-0">
+              <img src="../assets/images/player3.jpg" />
+            </div>
+            <div class="col-md-4 bg-lightgray p-3 work-sans tool-tip">
+              <div class="news-date-font pt-1 pb-1 color-lightgray">
+                Nov 19, 2015
+              </div>
+              <div class="news-head-font font-weight-bold mb-4">
+                PELLENTESQUE LAOREET UENA TURPIS
+              </div>
+              <div class="color-lightgray news-fontsize">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </div>
+              <div class="font-padding mt-4 mb-2">READ MORE ></div>
+            </div>
+            <div class="col-md-4 p-0">
+              <img src="../assets/images/player3.jpg" height="100%" />
+            </div>
+            <div class=" col-md-4 bg-lightgray p-3 work-sans tool-tip2">
+              <div class="news-date-font pt-1 pb-1 color-lightgray">
+                Nov 19, 2015
+              </div>
+              <div class="news-head-font font-weight-bold mb-4 ">
+                PELLENTESQUE LAOREET UENA TURPIS
+              </div>
+              <div class="color-lightgray news-fontsize ">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </div>
+              <div class="font-padding mt-4 mb-2">READ MORE ></div>
+            </div>
+          </div>
         </div>
-        <div class="bg-lightgray p-3 work-sans tool-tip2">
-          <div class="news-date-font pt-1 pb-1 color-lightgray">
-            Nov 19, 2015
-          </div>
-          <div class="news-head-font font-weight-bold mb-4 ">
-            PELLENTESQUE LAOREET UENA TURPIS
-          </div>
-          <div class="color-lightgray news-fontsize ">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout. as
-            opposed to using
-          </div>
-          <div class="font-padding mt-4 mb-2">READ MORE ></div>
+        <div class="mt-4">
+          <span class="btn-border mt-5">
+            <span class="bg-orange btn-padding">ALL NEWS</span>
+          </span>
         </div>
-      </div>
-      <div class="mt-4">
-        <span class="btn-border mt-5">
-          <span class="bg-orange btn-padding">ALL NEWS</span>
-        </span>
       </div>
     </div>
     <div class="bg-image"></div>
@@ -63,7 +67,7 @@
 }
 .bg-image {
   background: url("../assets/images/ground8.jpg") no-repeat;
-  height: 270px;
+  height: 100%;
   width: 100%;
   position: absolute;
   z-index: -1;
@@ -91,21 +95,25 @@
   font-size: 0.87rem;
 }
 .tool-tip::before {
-  top: 225px;
+  top: 40%;
   border: solid transparent;
   content: " ";
   position: absolute;
   border-right-color: #efefef;
   border-width: 21px;
-  left: 189px;
+  left: -42px;
 }
 .tool-tip2::before {
-  top: 225px;
+  top: 40%;
   border: solid transparent;
   content: " ";
   position: absolute;
   border-right-color: #efefef;
   border-width: 21px;
-  right: 266px;
+  right: 223px;
+}
+.img-responsive > img {
+  height: auto;
+  width: 100%;
 }
 </style>

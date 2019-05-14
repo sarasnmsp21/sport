@@ -30,6 +30,7 @@
         </div>
       </div>
     </div>
+
     <div class="col-md-6 award-padding">
       <div class="font-oswald color-white heading-fontsize ">ACHIEVEMENTS</div>
       <div class="d-flex justify-content-between">
