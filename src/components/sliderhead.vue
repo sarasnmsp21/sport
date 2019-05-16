@@ -15,45 +15,23 @@
           src="../assets/images/banner8.jpg"
           alt="image slot"
         />
-        <div class="carousel-caption text-right col-md-9">
-          <span class="banner-fontsize banner-text-bg font-oswald">
-            <span class="color-white ">LIFE IS</span>
-            <span class="color-orange "> ABOUT TIMING</span>
-          </span>
-          <div class="banner-font2 mb-4 work-sans">
-            <span>Just play.</span><span class="color-orange"> Have fun.</span
-            ><span> Enjoy the game</span>
-          </div>
-          <span class="text-border work-sans">
-            <span class="fontstyle-bg color-midgray">READ MORE</span>
-            <span class="arrow-bg">
-              <font-awesome-icon :icon="['fas', 'angle-right']" />
+        <div class="row">
+          <div class="carousel-caption text-right col-md-9">
+            <span class="banner-fontsize banner-text-bg font-oswald">
+              <span class="color-white ">LIFE IS</span>
+              <span class="color-orange "> ABOUT TIMING</span>
             </span>
-          </span>
-        </div>
-      </b-carousel-slide>
-      <b-carousel-slide>
-        <img
-          slot="img"
-          class="d-block img-fluid w-100 img-height"
-          src="../assets/images/banner3.jpg"
-          alt="image slot"
-        />
-        <div class="carousel-caption text-right col-md-9">
-          <span class="banner-fontsize banner-text-bg font-oswald">
-            <span class="color-white ">LIFE IS</span>
-            <span class="color-orange "> ABOUT TIMING</span>
-          </span>
-          <div class="banner-font2 mb-4 work-sans">
-            <span>Just play.</span><span class="color-orange"> Have fun.</span
-            ><span> Enjoy the game</span>
-          </div>
-          <span class="text-border work-sans">
-            <span class="fontstyle-bg color-midgray">READ MORE</span>
-            <span class="arrow-bg">
-              <font-awesome-icon :icon="['fas', 'angle-right']" />
+            <div class="banner-font2 mb-4 work-sans">
+              <span>Just play.</span><span class="color-orange"> Have fun.</span
+              ><span> Enjoy the game</span>
+            </div>
+            <span class="text-border work-sans">
+              <span class="fontstyle-bg color-midgray">READ MORE</span>
+              <span class="arrow-bg">
+                <font-awesome-icon :icon="['fas', 'angle-right']" />
+              </span>
             </span>
-          </span>
+          </div>
         </div>
       </b-carousel-slide>
       <b-carousel-slide>
@@ -63,21 +41,49 @@
           src="../assets/images/banner5.jpg"
           alt="image slot"
         />
-        <div class="carousel-caption text-right col-md-9">
-          <span class="banner-fontsize banner-text-bg font-oswald">
-            <span class="color-white ">LIFE IS</span>
-            <span class="color-orange "> ABOUT TIMING</span>
-          </span>
-          <div class="banner-font2 mb-4 work-sans">
-            <span>Just play.</span><span class="color-orange"> Have fun.</span
-            ><span> Enjoy the game</span>
-          </div>
-          <span class="text-border work-sans">
-            <span class="fontstyle-bg color-midgray">READ MORE</span>
-            <span class="arrow-bg">
-              <font-awesome-icon :icon="['fas', 'angle-right']" />
+        <div class="row">
+          <div class="carousel-caption text-right col-md-9">
+            <span class="banner-fontsize banner-text-bg font-oswald">
+              <span class="color-white ">LIFE IS</span>
+              <span class="color-orange "> ABOUT TIMING</span>
             </span>
-          </span>
+            <div class="banner-font2 mb-4 work-sans">
+              <span>Just play.</span><span class="color-orange"> Have fun.</span
+              ><span> Enjoy the game</span>
+            </div>
+            <span class="text-border work-sans">
+              <span class="fontstyle-bg color-midgray">READ MORE</span>
+              <span class="arrow-bg">
+                <font-awesome-icon :icon="['fas', 'angle-right']" />
+              </span>
+            </span>
+          </div>
+        </div>
+      </b-carousel-slide>
+      <b-carousel-slide>
+        <img
+          slot="img"
+          class="d-block img-fluid w-100 img-height"
+          src="../assets/images/banner5.jpg"
+          alt="image slot"
+        />
+        <div>
+          <div class="carousel-caption text-right col-md-9">
+            <span class="banner-fontsize banner-text-bg font-oswald">
+              <span class="color-white ">LIFE IS</span>
+              <span class="color-orange "> ABOUT TIMING</span>
+            </span>
+            <div class="banner-font2 mb-4 work-sans">
+              <span>Just play.</span><span class="color-orange"> Have fun.</span
+              ><span> Enjoy the game</span>
+            </div>
+            <span class="text-border work-sans">
+              <span class="fontstyle-bg color-midgray">READ MORE</span>
+              <span class="arrow-bg">
+                <font-awesome-icon :icon="['fas', 'angle-right']" />
+              </span>
+            </span>
+          </div>
         </div>
       </b-carousel-slide>
     </b-carousel>

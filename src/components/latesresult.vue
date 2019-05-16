@@ -1,6 +1,6 @@
 <template>
   
-    <div id="result" class="mt-6 mb-6">
+    <div id="result" class="p-top-bottom">
       <div class="text-center col-md-9 mx-auto mb-2 fieldset">
         <span class="text-result bg-white pl-pr head-font-size font-oswald">
           <span class="color-midgray">LATEST</span>
@@ -161,9 +161,6 @@
   border: 1px solid #fdbd00;
   padding: 6px 2px 10px 2px;
 }
-.mt-6 {
-  margin-top: 65px;
-}
 .pl-pr {
   padding-left: 60px;
   padding-right: 60px;
@@ -181,11 +178,9 @@
 .country-fontsize {
   font-size: 1.5625rem;
 }
-.mb-6 {
-  margin-bottom: 70px;
-}
-.mt-6{
-  margin-top: 70px;
+.p-top-bottom{
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .img-border {
   border: 1px solid $color-social;

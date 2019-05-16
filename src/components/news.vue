@@ -16,11 +16,23 @@
           </div>
         </div>
         <div class="row p-0 m-0">
-          <div class="col-md-9 d-flex">
-            <div class="col-md-4 img-responsive p-0">
-              <img src="../assets/images/player3.jpg" />
+          <div class="d-flex">
+            <div class="news-img flex-fill">
+              <img src="../assets/images/player.jpg" />
             </div>
-            <div class="col-md-4 bg-lightgray p-3 work-sans tool-tip">
+            <div class="bg-lightgray p-3 work-sans tool-tip flex-fill">
+              <div class="news-date-font pt-1 pb-1 color-lightgray">
+                Nov 19, 2015
+              </div>
+               <div class="news-head-font font-weight-bold mb-4">
+                PELLENTESQUE LAOREET UENA TURPIS
+              </div>
+               <div class="color-lightgray news-fontsize ">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </div>
+            </div>
+            <!-- <div class="bg-lightgray p-3 work-sans tool-tip">
               <div class="news-date-font pt-1 pb-1 color-lightgray">
                 Nov 19, 2015
               </div>
@@ -32,11 +44,23 @@
                 by the readable content of a page when looking at its layout.
               </div>
               <div class="font-padding mt-4 mb-2">READ MORE ></div>
+            </div> -->
+            <div class="news-img flex-fill">
+              <img src="../assets/images/player.jpg" height="100%" />
             </div>
-            <div class="col-md-4 p-0">
-              <img src="../assets/images/player3.jpg" height="100%" />
+             <div class="bg-lightgray p-3 work-sans tool-tip flex-fill">
+              <div class="news-date-font pt-1 pb-1 color-lightgray">
+                Nov 19, 2015
+              </div>
+               <div class="news-head-font font-weight-bold mb-4">
+                PELLENTESQUE LAOREET UENA TURPIS
+              </div>
+               <div class="color-lightgray news-fontsize ">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </div>
             </div>
-            <div class=" col-md-4 bg-lightgray p-3 work-sans tool-tip2">
+            <!-- <div class="bg-lightgray p-3 work-sans tool-tip2">
               <div class="news-date-font pt-1 pb-1 color-lightgray">
                 Nov 19, 2015
               </div>
@@ -48,7 +72,7 @@
                 by the readable content of a page when looking at its layout.
               </div>
               <div class="font-padding mt-4 mb-2">READ MORE ></div>
-            </div>
+            </div> -->
           </div>
         </div>
         <div class="mt-4">
@@ -67,7 +91,6 @@
 }
 .bg-image {
   background: url("../assets/images/ground8.jpg") no-repeat;
-  height: 100%;
   width: 100%;
   position: absolute;
   z-index: -1;
@@ -112,8 +135,9 @@
   border-width: 21px;
   right: 223px;
 }
-.img-responsive > img {
+.news-img > img {
   height: auto;
-  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 </style>

@@ -1,42 +1,60 @@
 <template>
-  <div id="support" class="col-md-9 p-0 mx-auto mt-6 mb-6 ">
-    <div class="text-center  padding background">
-      <div class=" black-bg">
-        <span class="support-fontsize font-oswald">
-          <span class=" color-orange">SUPPORT</span>
-          <span class="text-white"> TEAM</span>
-        </span>
+  <div class="support-team">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="p-top-bottom">
+          <div class="col-md-9 mx-auto">
+            <div class="  relative padding-40 background">
+              <div class=" black-bg">
+                <span class="support-fontsize font-oswald">
+                  <span class=" color-orange">SUPPORT</span>
+                  <span class="text-white"> TEAM</span>
+                </span>
 
-        <div
-          class="m-3 text-white col-md-9 mx-auto para-fontsize mb-4 work-sans"
-        >
-          The point of using Lorem Ipsum is that it has a more-or-less normal
-          distribution of letters, as opposed to using 'Content here, content
-          here', making it readable English. distribution of letters, as opposed
-          to using 'Content here, content here', making it look like.
-        </div>
-        <div class="mb-5 border-display">
-          <span class=" text-white top-border"></span>
-          <span class="text-white mx-auto para-fontsize d-flex  ">
-            <li class="m-2 mr-4">$ 5</li>
-            <li class="m-2 mr-4">$ 10</li>
-            <li class="m-2 mr-4">$ 25</li>
-            <li class="m-2 mr-4">$ 50</li>
-            <li class="m-2 mr-4">$ 75</li>
-            <li class="m-2 mr-4">$ 100</li>
-          </span>
-        </div>
-        <div>
-          <span class="btn-border"
-            ><span class="bg-orange btn-padding  ">DONATE</span></span
-          >
+                <div
+                  class="m-3 text-white col-md-9 mx-auto para-fontsize mb-4 work-sans"
+                >
+                  The point of using Lorem Ipsum is that it has a more-or-less
+                  normal distribution of letters, as opposed to using 'Content
+                  here, content here', making it readable English. distribution
+                  of letters, as opposed to using 'Content here, content here',
+                  making it look like.
+                </div>
+                <div class="mb-5 border-display">
+                  <span class=" text-white top-border"></span>
+                  <span class="text-white mx-auto para-fontsize d-flex  ">
+                    <li class="m-2 mr-4">$ 5</li>
+                    <li class="m-2 mr-4">$ 10</li>
+                    <li class="m-2 mr-4">$ 25</li>
+                    <li class="m-2 mr-4">$ 50</li>
+                    <li class="m-2 mr-4">$ 75</li>
+                    <li class="m-2 mr-4">$ 100</li>
+                  </span>
+                </div>
+                <div>
+                  <span class="btn-border"
+                    ><span class="bg-orange btn-padding  ">DONATE</span></span
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <!-- <div id="support" class="col-md-9 mx-auto p-top-bottom ">
+   
+  </div> -->
 </template>
 <style lang="scss">
 @import "../assets/scss/variables.scss";
+.relative {
+  position: relative;
+}
+.padding-40 {
+  padding: 40px 0px;
+}
 fieldset {
   border: 1px solid gray;
 }
@@ -44,7 +62,6 @@ legend {
   width: 40%;
 }
 .background {
-  position: relative;
   text-align: center;
   background-size: cover;
   background: linear-gradient(
@@ -82,10 +99,7 @@ legend {
 .top-border {
   border-top: 3px solid;
 }
-.padding {
-  padding: 40px 0;
-  position: relative;
-}
+
 .padding::before {
   content: "";
   width: 25%;

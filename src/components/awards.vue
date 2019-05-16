@@ -1,19 +1,19 @@
 <template>
   <div class="d-flex awards-bg mb-5">
     <div class="col-md-6 bg-light award-padding ">
-      <div>
-        <span class="font-oswald heading-fontsize ">
+      <div class="d-flex justify-content-center mb-5">
+        <div class="font-oswald heading-fontsize my-auto mr-5">
           <span class="color-lightblack"> OUR</span>
-          <span class="color-orange"> AWARDS</span></span
-        >
-        <span class="float-right">
-          <span class="bg-lightblack arrow-padding2 color-yellow">
+          <span class="color-orange"> AWARDS</span>
+        </div>
+        <div class="my-auto ml-5 ">
+          <span class="bg-lightblack color-yellow arrow-font">
             <font-awesome-icon :icon="['fas', 'angle-left']" />
           </span>
-          <span class="bg-orange arrow-padding2 color-lightblack">
+          <span class="bg-orange arrow-font color-lightblack">
             <font-awesome-icon :icon="['fas', 'angle-right']" />
           </span>
-        </span>
+        </div>
       </div>
       <div class="d-flex">
         <div>
@@ -93,5 +93,9 @@
 .wordcup-font {
   padding-top: 25px;
   font-size: 14px;
+}
+.arrow-font {
+  padding: 4px 8px;
+  font-size: 16px;
 }
 </style>

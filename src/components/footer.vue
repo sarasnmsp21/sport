@@ -53,10 +53,10 @@
                 >LAST MATCH</span
               >
               <span class="float-right">
-                <span class="bg-lightblack arrow-padding2 color-yellow">
+                <span class="tour-bg arrow-padding2 color-yellow">
                   <font-awesome-icon :icon="['fas', 'angle-left']" />
                 </span>
-                <span class="bg-lightblack arrow-padding2 color-yellow">
+                <span class="tour-bg arrow-padding2 color-yellow">
                   <font-awesome-icon :icon="['fas', 'angle-right']" />
                 </span>
               </span>
@@ -74,7 +74,7 @@
                     alt=""
                 /></span>
                 <span class="mr-3 color-white font-oswald">CAMBRIDGEHIRE</span>
-                <div class="my-auto color-orange vs-fontsize2">VS</div>
+                <div class="my-auto color-orange vs-fontsize2 font-oswald">VS</div>
                 <span class="ml-3 color-white font-oswald">CHINA</span>
                 <span
                   ><img
@@ -84,7 +84,7 @@
                     alt=""
                 /></span>
               </div>
-              <div class="read-font2 color-orange ">
+              <div class="read-font2 color-orange work-sans ">
                 Read more
                 <span>
                   <font-awesome-icon :icon="['fas', 'angle-right']"
