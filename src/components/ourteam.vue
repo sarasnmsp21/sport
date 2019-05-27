@@ -122,7 +122,7 @@
 }
 .back-banner-position {
   background: url(../assets/images/banner8.jpg) no-repeat;
-  height: 450px;
+  height: 443px;
   width: 100%;
   position: absolute;
   z-index: -1;

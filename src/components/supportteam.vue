@@ -4,38 +4,37 @@
       <div class="row">
         <div class="p-top-bottom">
           <div class="col-md-9 mx-auto">
-            <div class="  relative padding-40 background">
-              <div class=" black-bg">
-                <span class="support-fontsize font-oswald">
-                  <span class=" color-orange">SUPPORT</span>
-                  <span class="text-white"> TEAM</span>
+            <div class="relative padding-40 yellow-border bg-gradient-black">
+              <span class="support-fontsize font-oswald">
+                <span class=" color-orange">SUPPORT</span>
+                <span class="text-white"> TEAM</span>
+              </span>
+              <div
+                class="m-3 text-white col-md-9 mx-auto para-fontsize mb-4 work-sans"
+              >
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using 'Content
+                here, content here', making it readable English. distribution of
+                letters, as opposed to using 'Content here, content here',
+                making it look like.
+              </div>
+              <div class="mb-4 border-display">
+                <span class=" text-white top-border"></span>
+                <span class="text-white mx-auto para-fontsize d-flex  ">
+                  <li class="m-2 mr-4">$ 5</li>
+                  <li class="m-2 mr-4">$ 10</li>
+                  <li class="m-2 mr-4">$ 25</li>
+                  <li class="m-2 mr-4">$ 50</li>
+                  <li class="m-2 mr-4">$ 75</li>
+                  <li class="m-2 mr-4">$ 100</li>
                 </span>
-
-                <div
-                  class="m-3 text-white col-md-9 mx-auto para-fontsize mb-4 work-sans"
-                >
-                  The point of using Lorem Ipsum is that it has a more-or-less
-                  normal distribution of letters, as opposed to using 'Content
-                  here, content here', making it readable English. distribution
-                  of letters, as opposed to using 'Content here, content here',
-                  making it look like.
-                </div>
-                <div class="mb-5 border-display">
-                  <span class=" text-white top-border"></span>
-                  <span class="text-white mx-auto para-fontsize d-flex  ">
-                    <li class="m-2 mr-4">$ 5</li>
-                    <li class="m-2 mr-4">$ 10</li>
-                    <li class="m-2 mr-4">$ 25</li>
-                    <li class="m-2 mr-4">$ 50</li>
-                    <li class="m-2 mr-4">$ 75</li>
-                    <li class="m-2 mr-4">$ 100</li>
+              </div>
+              <div>
+                <span class="btn-border">
+                  <span class="bg-orange btn-padding">
+                    DONATE
                   </span>
-                </div>
-                <div>
-                  <span class="btn-border"
-                    ><span class="bg-orange btn-padding  ">DONATE</span></span
-                  >
-                </div>
+                </span>
               </div>
             </div>
           </div>
@@ -61,7 +60,7 @@ fieldset {
 legend {
   width: 40%;
 }
-.background {
+.bg-gradient-black {
   text-align: center;
   background-size: cover;
   background: linear-gradient(
@@ -71,11 +70,7 @@ legend {
     url("../assets/images/banner2.jpg");
   z-index: -1;
 }
-.black-bg::after {
-  background-color: green;
-  background-size: cover;
-  z-index: 1;
-}
+
 .color-lightblack {
   color: $bg-lightblack;
 }
@@ -100,7 +95,7 @@ legend {
   border-top: 3px solid;
 }
 
-.padding::before {
+.yellow-border::before {
   content: "";
   width: 25%;
   position: absolute;
@@ -110,7 +105,7 @@ legend {
   border: solid #ffc722;
   border-width: 1px 0 1px 1px;
 }
-.padding::after {
+.yellow-border::after {
   content: "";
   width: 25%;
   position: absolute;

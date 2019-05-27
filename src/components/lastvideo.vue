@@ -1,6 +1,6 @@
 <template>
   <div id="lastvideo" class="col-md-12 p-0 relative">
-    <div class=" col-md-7 mx-auto mb-6">
+    <div class=" col-md-7 mx-auto ">
       <div class="mb-3 font-oswald video-fontsize ">
         <span class="color-lightblack">LAST</span>
         <span class="color-yellow">VIDEO</span>

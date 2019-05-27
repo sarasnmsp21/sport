@@ -47,7 +47,7 @@
   background: #fdbd00;
   position: absolute;
   right: 694px;
-  top: -1px;
+  top: 0;
   bottom: 0;
   left: -1000%;
   z-index: -2;

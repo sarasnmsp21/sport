@@ -1,66 +1,76 @@
 <template>
-  <div id="team" class=" about-bg">
-    <b-row class="p-0 m-0">
-      <div class="d-flex justify-content-between col-md-9 mx-auto p-0">
-        <div class="text-left relative  col1-bg col-md-6">
-          <div class="font-oswald mb-3 about-fontsize">
-            <span class="color-midgray">ABOUT</span>
-            <span class="color-white"> TEAM</span>
-          </div>
-          <div class="work-sans para-lineheight color-midgray">
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. making
-              it look like readable English.Ipsum is that it
-            </p>
-            <p>
-              The point of using Lorem Ipsum is that it has a more-or-less
-              normal distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.
-            </p>
-          </div>
-          <div class="mt-4">
-            <span class="read-border">
-              <span class="bg-lightblack read-padding read-font"
-                >READ MORE</span
-              >
-            </span>
-          </div>
-        </div>
-        <div class="col2-padding col-md-6 text-right  ">
-          <div class="mb-4 font-oswald d-flex justify-content-end">
-            <span class="my-auto">
-              <span class="bg-lightblack arrow-padding color-yellow"> 
-                <font-awesome-icon :icon="['fas', 'angle-left']" /></span>
-              <span class="bg-orange arrow-padding color-lightblack">
-                <font-awesome-icon :icon="['fas', 'angle-right']" />
-              </span>
-            </span>
-            <span class=" about-fontsize text-white ml-4 my-auto"
-              >TRAINERS</span
-            >
-          </div>
-          <div class="d-flex justify-content-end relative">
-            <div class="name-position about-fontsize">
-              <div class="text-white font-oswald pr-3">BERNARD</div>
-              <div class="color-yellow font-oswald pr-3">FERNANDEZ</div>
+  <div class="about-section">
+    <div class="container-fluid">
+      <div class="row">
+        <div class=" col-md-9 mx-auto">
+          <div class="d-flex">
+            <div class="col-md-6">
+              <div class="text-left relative  col1-bg ">
+                <div class="font-oswald mb-3 about-fontsize">
+                  <span class="color-midgray">ABOUT</span>
+                  <span class="color-white"> TEAM</span>
+                </div>
+                <div class="work-sans para-lineheight color-midgray">
+                  <p>
+                    It is a long established fact that a reader will be
+                    distracted by the readable content of a page when looking at
+                    its layout. making it look like readable English.Ipsum is
+                    that it
+                  </p>
+                  <p>
+                    The point of using Lorem Ipsum is that it has a more-or-less
+                    normal distribution of letters, as opposed to using 'Content
+                    here, content here', making it look like readable English.
+                  </p>
+                </div>
+                <div>
+                  <span class="read-border">
+                    <span class="bg-lightblack read-padding read-font"
+                      >READ MORE</span
+                    >
+                  </span>
+                </div>
+              </div>
             </div>
-            <div>
-              <img
-                src="../assets/images/player2.jpeg"
-                width="100%"
-                style=" outline: 1px solid orange;"
-              />
+            <div class="col-md-6">
+              <div class="col2-padding text-right">
+                <div class="mb-4 font-oswald d-flex justify-content-end">
+                  <span class="my-auto">
+                    <span class="bg-lightblack arrow-padding color-yellow">
+                      <font-awesome-icon :icon="['fas', 'angle-left']" />
+                    </span>
+                    <span class="bg-orange arrow-padding color-lightblack">
+                      <font-awesome-icon :icon="['fas', 'angle-right']" />
+                    </span>
+                  </span>
+                  <span class=" about-fontsize text-white ml-4 my-auto">
+                    TRAINERS
+                  </span>
+                </div>
+                <div class="d-flex justify-content-end relative">
+                  <div class="name-position about-fontsize">
+                    <div class="text-white font-oswald">BERNARD</div>
+                    <div class="color-yellow font-oswald">FERNANDEZ</div>
+                  </div>
+                  <div>
+                    <img
+                      src="../assets/images/player2.jpeg"
+                      width="100%"
+                      style=" outline: 1px solid orange;"
+                    />
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </b-row>
+    </div>
   </div>
 </template>
 <style lang="scss">
 @import "../assets/scss/_variables.scss";
-.about-bg {
+.about-section {
   background: linear-gradient(
       to bottom rgba(82, 78, 78, 0.94),
       rgba(82, 78, 78, 0.94)
@@ -85,7 +95,7 @@
 }
 .col1-bg {
   z-index: 1;
-  padding: 65px 0px 77px 0px;
+  padding: 97px 0px 77px 0px;
 }
 .read-padding {
   padding: 9px 30px;
@@ -102,19 +112,6 @@
 .about-fontsize {
   font-size: 1.875rem;
 }
-// .col2-bg::after {
-//  content: '';
-//     position: absolute;
-//     top: 0;
-//     left: 0;
-//     bottom: 0;
-//     opacity: 0.9;
-//     right: -1000%;
-//     z-index: -1;
-//     transform: skew(-33deg);
-//     display: block;
-//     background: #363533;
-// }
 .col2-padding {
   padding: 65px 0px 77px 0px;
 }
@@ -137,8 +134,8 @@
 }
 .name-position {
   position: absolute;
-  left: 138px;
-  bottom: 73px;
+  left: 20%;
+  bottom: 0px;
   line-height: 35px;
 }
 </style>
